@@ -16,8 +16,18 @@ Site statique du **Restaurant Élite**, restaurant turc au 119 route de Colmar, 
 
 ## Publication
 
-Chaque `push` sur la branche de travail republie le site automatiquement via GitHub Pages.
+Le site est publié par **GitHub Pages**, réglage *Settings → Pages* :
+
+- **Source** : `Deploy from a branch`
+- **Branche** : `claude/wizardly-cray-8priek`, dossier `/ (root)`
+
+Adresse publique : <https://anasdine.github.io/elite-restaurant/>
+
+Chaque `push` sur cette branche republie le site automatiquement, en une minute environ.
 Aucune étape manuelle, aucun outil à installer.
+
+Le workflow `deploy-pages.yml` n'est utile que si la source Pages est réglée
+sur `GitHub Actions` ; il se lance alors à la demande depuis l'onglet *Actions*.
 
 ## Développement local
 

@@ -1,10 +1,9 @@
 name: Deploy site to GitHub Pages
 
+# Utile uniquement si la source Pages est réglée sur « GitHub Actions ».
+# Avec la source « Deploy from a branch » (réglage recommandé), GitHub
+# republie tout seul à chaque push et ce workflow ne sert pas.
 on:
-  push:
-    branches:
-      - claude/wizardly-cray-8priek
-      - main
   workflow_dispatch:
 
 permissions:
