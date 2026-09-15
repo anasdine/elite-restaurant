@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500&display=swap">
+<style>
+html,body{margin:0;padding:0;background:#0b0a08;color:#f1eade;font-family:"Bricolage Grotesque",sans-serif;-webkit-font-smoothing:antialiased;}
+a{color:#c2a15c;} a:hover{color:#f1eade;}
+::selection{background:#c2a15c;color:#100e0b;}
+</style>
+</helmet>
+<section data-screen-label="Logos v1" style="padding:clamp(28px,4vw,64px);box-sizing:border-box;">
+  <header style="display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;border-bottom:1px solid rgba(194,161,92,.3);padding-bottom:18px;margin-bottom:clamp(24px,3vw,44px);">
+    <div>
+      <p style="margin:0 0 10px;font-size:10.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#9d907c;">Élite Restaurant · Ingersheim</p>
+      <h1 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,4vw,58px);line-height:1;">Quatre pistes de <span style="font-style:italic;color:#c2a15c;">logo</span></h1>
+    </div>
+    <p style="margin:0;max-width:38ch;font-size:13px;line-height:1.55;color:#9d907c;text-wrap:pretty;">Marques typographiques construites en Cormorant Garamond et Bricolage Grotesque, dans le laiton et l'ivoire du site. Chaque piste est montrée en grand, puis en petit et sur fond clair.</p>
+  </header>
+  <div style="display:flex;flex-wrap:wrap;gap:clamp(18px,2vw,30px);align-items:flex-start;">
+
+    <div id="1a" style="flex:1 1 340px;max-width:430px;">
+      <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:12px;">
+        <span style="font-size:10px;font-weight:500;letter-spacing:.18em;color:#100e0b;background:#c2a15c;padding:4px 8px;">1a</span>
+        <span style="font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#e8dcc0;">Sceau</span>
+        <span style="font-size:12px;color:#9d907c;">monogramme cerclé</span>
+      </div>
+      <div style="position:relative;background:#100e0b;border:1px solid rgba(194,161,92,.28);padding:52px 32px;display:flex;flex-direction:column;align-items:center;box-sizing:border-box;">
+        <sc-if value="{{ guides }}" hint-placeholder-val="{{ false }}">
+          <div style="position:absolute;top:52px;left:50%;transform:translateX(-50%);width:148px;height:148px;border:1px dashed rgba(194,161,92,.35);border-radius:50%;pointer-events:none;"></div>
+        </sc-if>
+        <div style="position:relative;width:148px;height:148px;border:1px solid #c2a15c;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+          <div style="position:absolute;inset:7px;border:1px solid rgba(194,161,92,.35);border-radius:50%;"></div>
+          <span style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:82px;line-height:1;color:#f1eade;padding-bottom:6px;">É</span>
+        </div>
+        <p style="margin:24px 0 0;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:32px;line-height:1;letter-spacing:.06em;">Élite</p>
+        <p style="margin:9px 0 0;font-size:9.5px;font-weight:500;letter-spacing:.34em;text-transform:uppercase;color:#c2a15c;">Restaurant</p>
+      </div>
+      <sc-if value="{{ proofs }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;gap:10px;margin-top:10px;">
+          <div style="flex:1 1 0;background:#100e0b;border:1px solid rgba(194,161,92,.18);padding:14px;display:flex;align-items:center;justify-content:center;gap:9px;">
+            <span style="width:30px;height:30px;border:1px solid #c2a15c;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1;padding-bottom:2px;">É</span>
+            <span style="font-size:8px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#9d907c;">28 px</span>
+          </div>
+          <div style="flex:1 1 0;background:#c2a15c;padding:14px;display:flex;align-items:center;justify-content:center;">
+            <span style="width:30px;height:30px;border:1px solid #100e0b;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:18px;line-height:1;color:#100e0b;padding-bottom:2px;">É</span>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+
+    <div id="1b" style="flex:1 1 340px;max-width:430px;">
+      <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:12px;">
+        <span style="font-size:10px;font-weight:500;letter-spacing:.18em;color:#100e0b;background:#c2a15c;padding:4px 8px;">1b</span>
+        <span style="font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#e8dcc0;">Signature</span>
+        <span style="font-size:12px;color:#9d907c;">italique, sans symbole</span>
+      </div>
+      <div style="background:#100e0b;border:1px solid rgba(194,161,92,.28);padding:64px 34px;display:flex;flex-direction:column;align-items:flex-start;box-sizing:border-box;">
+        <p style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-style:italic;font-size:clamp(52px,7vw,76px);line-height:.92;letter-spacing:-.01em;">Élite</p>
+        <div style="width:100%;height:1px;background:#c2a15c;margin:16px 0 12px;"></div>
+        <div style="display:flex;align-items:baseline;justify-content:space-between;width:100%;gap:14px;">
+          <span style="font-size:9.5px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:#e8dcc0;">Restaurant</span>
+          <span style="font-size:9.5px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:#9d907c;">Ingersheim</span>
+        </div>
+      </div>
+      <sc-if value="{{ proofs }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;gap:10px;margin-top:10px;">
+          <div style="flex:1 1 0;background:#100e0b;border:1px solid rgba(194,161,92,.18);padding:14px;display:flex;flex-direction:column;align-items:flex-start;gap:3px;">
+            <span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:21px;line-height:1;">Élite</span>
+            <span style="font-size:7px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#9d907c;">Restaurant</span>
+          </div>
+          <div style="flex:1 1 0;background:#f1eade;padding:14px;display:flex;flex-direction:column;align-items:flex-start;gap:3px;">
+            <span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:21px;line-height:1;color:#100e0b;">Élite</span>
+            <span style="font-size:7px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#6b5f52;">Restaurant</span>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+
+    <div id="1c" style="flex:1 1 340px;max-width:430px;">
+      <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:12px;">
+        <span style="font-size:10px;font-weight:500;letter-spacing:.18em;color:#100e0b;background:#c2a15c;padding:4px 8px;">1c</span>
+        <span style="font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#e8dcc0;">Plaque</span>
+        <span style="font-size:12px;color:#9d907c;">cartouche de brasserie</span>
+      </div>
+      <div style="background:#100e0b;border:1px solid rgba(194,161,92,.28);padding:46px 30px;display:flex;justify-content:center;box-sizing:border-box;">
+        <div style="border-top:2px solid #c2a15c;border-bottom:2px solid #c2a15c;padding:22px 0;display:flex;flex-direction:column;align-items:center;gap:10px;min-width:232px;">
+          <span style="font-size:9px;font-weight:500;letter-spacing:.42em;text-transform:uppercase;color:#c2a15c;">Depuis 2024</span>
+          <span style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:46px;line-height:1;letter-spacing:.04em;">ÉLITE</span>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <span style="width:26px;height:1px;background:rgba(194,161,92,.6);"></span>
+            <span style="font-size:9px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:#e8dcc0;">Restaurant</span>
+            <span style="width:26px;height:1px;background:rgba(194,161,92,.6);"></span>
+          </div>
+        </div>
+      </div>
+      <sc-if value="{{ proofs }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;gap:10px;margin-top:10px;">
+          <div style="flex:1 1 0;background:#100e0b;border:1px solid rgba(194,161,92,.18);padding:14px;display:flex;justify-content:center;">
+            <span style="border-top:1px solid #c2a15c;border-bottom:1px solid #c2a15c;padding:6px 0;font-family:'Cormorant Garamond',serif;font-size:17px;line-height:1;letter-spacing:.06em;">ÉLITE</span>
+          </div>
+          <div style="flex:1 1 0;background:#c2a15c;padding:14px;display:flex;justify-content:center;">
+            <span style="border-top:1px solid #100e0b;border-bottom:1px solid #100e0b;padding:6px 0;font-family:'Cormorant Garamond',serif;font-size:17px;line-height:1;letter-spacing:.06em;color:#100e0b;">ÉLITE</span>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+
+    <div id="1d" style="flex:1 1 340px;max-width:430px;">
+      <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:12px;">
+        <span style="font-size:10px;font-weight:500;letter-spacing:.18em;color:#100e0b;background:#c2a15c;padding:4px 8px;">1d</span>
+        <span style="font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#e8dcc0;">Verre tulipe</span>
+        <span style="font-size:12px;color:#9d907c;">symbole + nom</span>
+      </div>
+      <div style="background:#100e0b;border:1px solid rgba(194,161,92,.28);padding:46px 32px;display:flex;flex-direction:column;align-items:center;box-sizing:border-box;">
+        <svg viewBox="0 0 44 62" width="74" height="104" fill="none" stroke="#c2a15c" stroke-width="1.6" stroke-linecap="round" aria-label="Verre à thé tulipe">
+          <path d="M9 4c0 15 6 22 6 30 0 10-3 14-3 18h20c0-4-3-8-3-18 0-8 6-15 6-30z"></path>
+          <path d="M9 4h26"></path>
+          <path d="M6 56h32"></path>
+        </svg>
+        <p style="margin:22px 0 0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:38px;line-height:1;letter-spacing:.05em;">Élite</p>
+        <p style="margin:9px 0 0;font-size:9.5px;font-weight:500;letter-spacing:.32em;text-transform:uppercase;color:#c2a15c;">Cuisine turque</p>
+      </div>
+      <sc-if value="{{ proofs }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;gap:10px;margin-top:10px;">
+          <div style="flex:1 1 0;background:#100e0b;border:1px solid rgba(194,161,92,.18);padding:14px;display:flex;align-items:center;justify-content:center;gap:9px;">
+            <svg viewBox="0 0 44 62" width="17" height="24" fill="none" stroke="#c2a15c" stroke-width="3" stroke-linecap="round">
+              <path d="M9 4c0 15 6 22 6 30 0 10-3 14-3 18h20c0-4-3-8-3-18 0-8 6-15 6-30z"></path>
+              <path d="M9 4h26"></path>
+            </svg>
+            <span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1;letter-spacing:.05em;">Élite</span>
+          </div>
+          <div style="flex:1 1 0;background:#f1eade;padding:14px;display:flex;align-items:center;justify-content:center;gap:9px;">
+            <svg viewBox="0 0 44 62" width="17" height="24" fill="none" stroke="#100e0b" stroke-width="3" stroke-linecap="round">
+              <path d="M9 4c0 15 6 22 6 30 0 10-3 14-3 18h20c0-4-3-8-3-18 0-8 6-15 6-30z"></path>
+              <path d="M9 4h26"></path>
+            </svg>
+            <span style="font-family:'Cormorant Garamond',serif;font-size:20px;line-height:1;letter-spacing:.05em;color:#100e0b;">Élite</span>
+          </div>
+        </div>
+      </sc-if>
+    </div>
+
+  </div>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1400,&quot;height&quot;:1100},&quot;showProofs&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Planche&quot;},&quot;showGuides&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Planche&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      proofs: this.props.showProofs ?? true,
+      guides: this.props.showGuides ?? false
+    };
+  }
+}
+</script>
+</body>
+</html>

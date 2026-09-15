@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+<meta name="ext-resource-dependency" content="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js" data-resource-id="three" />
+<meta name="ext-resource-dependency" content="./photos/facade.jpg" data-resource-id="facade" />
+<meta name="ext-resource-dependency" content="./photos/alinazik.jpg" data-resource-id="alinazik" />
+<meta name="ext-resource-dependency" content="./photos/durum.jpg" data-resource-id="durum" />
+<meta name="ext-resource-dependency" content="./photos/carte-1.jpg" data-resource-id="carte1" />
+<meta name="ext-resource-dependency" content="./photos/carte-2.jpg" data-resource-id="carte2" />
+<template id="__bundler_thumbnail" data-bg-color="#100e0b">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#100e0b"/>
+    <g fill="none" stroke="#c2a15c" stroke-width="7">
+      <path d="M600 214v372"/>
+      <path d="M528 214h144"/>
+      <path d="M600 262c54 0 92 44 92 104s-38 116-92 116-92-56-92-116 38-104 92-104z"/>
+      <path d="M520 586h160"/>
+    </g>
+    <g fill="#c2a15c">
+      <circle cx="600" cy="330" r="9"/><circle cx="600" cy="400" r="9"/><circle cx="600" cy="470" r="9"/>
+    </g>
+    <text x="600" y="672" fill="#f1eade" font-family="Georgia, serif" font-size="74" text-anchor="middle">Élite</text>
+    <text x="600" y="716" fill="#9d907c" font-family="Helvetica, Arial, sans-serif" font-size="21" letter-spacing="7" text-anchor="middle">INGERSHEIM</text>
+  </svg>
+</template>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Restaurant Élite — restaurant turc à Ingersheim, aux portes de Colmar</title>
+<meta name="description" content="Restaurant turc à Ingersheim, limitrophe de Colmar : döner, kebab, lahmacun, pide, iskender, pizzas et tartes flambées. Sur place, à emporter et en livraison. 119 route de Colmar, 68040 Ingersheim — 09 52 87 54 93.">
+<meta name="keywords" content="restaurant turc Colmar, kebab Colmar, döner Ingersheim, lahmacun Colmar, pide, iskender, pizza Ingersheim, tarte flambée, livraison kebab Colmar, traiteur turc Haut-Rhin">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="geo.region" content="FR-68">
+<meta name="geo.placename" content="Ingersheim, Colmar, Haut-Rhin">
+<meta property="og:type" content="restaurant">
+<meta property="og:site_name" content="Restaurant Élite">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Restaurant Élite — cuisine turque à Ingersheim, aux portes de Colmar">
+<meta property="og:description" content="Döner, kebab, lahmacun, pide, iskender, pizzas et tartes flambées. Sur place, à emporter, en livraison. 119 route de Colmar, 68040 Ingersheim.">
+<meta property="og:image" content="photos/facade.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Restaurant","@id":"#restaurant","name":"Restaurant Élite","alternateName":"Élite Doner Kebab Pizzas",
+"description":"Restaurant turc à Ingersheim, limitrophe de Colmar. Döner, kebab, lahmacun, pide, iskender, pizzas et tartes flambées, sur place, à emporter et en livraison.",
+"servesCuisine":["Turque","Kebab","Pizza","Tarte flambée"],"priceRange":"€€","image":"photos/facade.jpg","logo":"logo-elite.svg",
+"address":{"@type":"PostalAddress","streetAddress":"119 route de Colmar","postalCode":"68040","addressLocality":"Ingersheim","addressRegion":"Grand Est","addressCountry":"FR"},
+"telephone":"+33952875493","currenciesAccepted":"EUR",
+"legalName":"RESTAURANT ELITE","vatID":"FR","identifier":[{"@type":"PropertyValue","name":"SIRET","value":"93378464700010"},{"@type":"PropertyValue","name":"SIREN","value":"933784647"}],
+"foundingDate":"2024-10-04","acceptsReservations":true,
+"openingHoursSpecification":[
+{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"11:30","closes":"14:30"},
+{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"18:00","closes":"23:00"}],
+"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Parking","value":true},{"@type":"LocationFeatureSpecification","name":"Wi-Fi gratuit","value":true},{"@type":"LocationFeatureSpecification","name":"Climatisation","value":true},{"@type":"LocationFeatureSpecification","name":"Accès PMR","value":true}],
+"areaServed":[{"@type":"City","name":"Colmar"},{"@type":"City","name":"Ingersheim"},{"@type":"City","name":"Wintzenheim"},{"@type":"City","name":"Turckheim"},{"@type":"City","name":"Horbourg-Wihr"},{"@type":"City","name":"Houssen"},{"@type":"City","name":"Wettolsheim"},{"@type":"City","name":"Niedermorschwihr"}],
+"hasMenu":{"@type":"Menu","name":"Carte Élite","hasMenuSection":[
+{"@type":"MenuSection","name":"Entrées"},{"@type":"MenuSection","name":"Assiettes"},{"@type":"MenuSection","name":"Sandwichs"},{"@type":"MenuSection","name":"Burgers"},{"@type":"MenuSection","name":"Pizzas"},{"@type":"MenuSection","name":"Tartes flambées"},{"@type":"MenuSection","name":"Pide"},{"@type":"MenuSection","name":"Desserts"}]}},
+{"@type":"FAQPage","@id":"#faq","mainEntity":[
+{"@type":"Question","name":"Où se trouve le Restaurant Élite ?","acceptedAnswer":{"@type":"Answer","text":"Au 119 route de Colmar, 68040 Ingersheim, commune limitrophe de Colmar. Parking sur place et accès de plain-pied."}},
+{"@type":"Question","name":"Quels sont les horaires d\u2019ouverture ?","acceptedAnswer":{"@type":"Answer","text":"Du mardi au dimanche, de 11:30 à 14:30 et de 18:00 à 23:00. Fermé le lundi. Renseignements au 09 52 87 54 93."}},
+{"@type":"Question","name":"Proposez-vous la vente à emporter et la livraison ?","acceptedAnswer":{"@type":"Answer","text":"Oui : service en salle, vente à emporter et livraison. Les commandes se prennent par téléphone au 09 52 87 54 93."}},
+{"@type":"Question","name":"Y a-t-il des plats végétariens ?","acceptedAnswer":{"@type":"Answer","text":"Assiette et sandwich végétariens, salades, cacik, aubergine, pizzas sans viande et tartes flambées au fromage."}},
+{"@type":"Question","name":"Peut-on réserver une table ou commander un traiteur ?","acceptedAnswer":{"@type":"Answer","text":"Les réservations se font par téléphone au 09 52 87 54 93. Le traiteur et les événements sont proposés sur devis."}}]}]}
+</script>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23100e0b%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2227%22%20fill%3D%22none%22%20stroke%3D%22%23c2a15c%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2222.5%22%20fill%3D%22none%22%20stroke%3D%22%23c2a15c%22%20stroke-width%3D%221%22%20opacity%3D%22.55%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2243%22%20text-anchor%3D%22middle%22%20font-family%3D%22Cormorant%20Garamond%2CGeorgia%2Cserif%22%20font-weight%3D%22300%22%20font-size%3D%2234%22%20fill%3D%22%23f1eade%22%3E%C3%89%3C%2Ftext%3E%3C%2Fsvg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500&display=swap">
+<style>
+html,body{margin:0;padding:0;background:#100e0b;color:#f1eade;font-family:"Bricolage Grotesque",sans-serif;font-weight:400;-webkit-font-smoothing:antialiased;overflow:hidden;}
+*{-webkit-tap-highlight-color:transparent;}
+a{color:#c2a15c;} a:hover{color:#f1eade;}
+::selection{background:#c2a15c;color:#100e0b;}
+[data-scene-track]{scrollbar-width:none;-ms-overflow-style:none;}
+[data-scene-track]::-webkit-scrollbar{display:none;}
+[data-mode="1"] header [data-label],[data-mode="2"] header [data-label]{display:none !important;}
+[data-mode="2"] header nav{display:none !important;}
+[data-mode="2"] header [data-burger]{display:flex !important;}
+[data-mode="2"] header [data-wa]{display:none !important;}
+header nav{scrollbar-width:none;}
+header nav::-webkit-scrollbar{display:none;}
+input,select,button,textarea{font:inherit;color:inherit;}
+select option{background:#15120e;color:#f1eade;}
+@keyframes cue{0%,100%{transform:translateY(0);opacity:.5;}50%{transform:translateY(6px);opacity:1;}}
+@keyframes rise{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+</style>
+</helmet>
+<div ref="{{ shellRef }}" style="position:relative;width:100%;height:100vh;height:100dvh;overflow:hidden;background:#100e0b;">
+  <x-import component-from-global-scope="kitchen-scene" from="./kitchen-scene.js" count="{{ sceneCount }}" hint-size="100%,100%" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;background:#100e0b;"></x-import>
+  <div style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;pointer-events:none;background:{{ scrim }};"></div>
+  <div style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;pointer-events:none;opacity:.055;mix-blend-mode:overlay;background-image:url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22160%22 height=%22160%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22160%22 height=%22160%22 filter=%22url(%23n)%22/%3E%3C/svg%3E');"></div>
+  <div data-scene-track style="position:absolute;top:0;left:0;right:0;bottom:0;overflow-y:auto;overflow-x:hidden;z-index:2;scroll-snap-type:{{ snapMode }};scroll-padding-top:60px;-webkit-overflow-scrolling:touch;">
+    <header style="position:sticky;top:0;z-index:6;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px clamp(14px,3vw,34px);background:#100e0b;border-bottom:1px solid rgba(194,161,92,.26);box-sizing:border-box;">
+      <button onClick="{{ goHome }}" style="flex:0 1 auto;min-width:0;display:flex;align-items:baseline;gap:8px;background:none;border:none;padding:0;cursor:pointer;text-align:left;">
+        <svg viewBox="0 0 64 64" width="26" height="26" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="none" stroke="#c2a15c" stroke-width="1.5"/><circle cx="32" cy="32" r="25.5" fill="none" stroke="#c2a15c" stroke-width=".8" opacity=".55"/><text x="32" y="43.5" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif" font-weight="300" font-size="37" fill="#f1eade">É</text></svg>
+        <span style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:20px;letter-spacing:.06em;white-space:nowrap;">Élite</span>
+        <span data-label style="display:inline;font-size:9.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;white-space:nowrap;">Restaurant</span>
+      </button>
+        <nav style="display:flex;align-items:center;gap:clamp(10px,1.5vw,20px);flex:1 1 auto;justify-content:center;min-width:0;">
+          <sc-for list="{{ navItems }}" as="n" hint-placeholder-count="4">
+            <button onClick="{{ n.go }}" style="{{ n.style }}">{{ n.label }}</button>
+          </sc-for>
+        </nav>
+        <div data-burger style="position:relative;flex:1 1 auto;display:none;justify-content:center;min-width:0;">
+          <button onClick="{{ toggleNav }}" aria-label="Menu" style="display:flex;align-items:center;gap:8px;background:none;border:1px solid rgba(194,161,92,.4);color:#e8dcc0;font-size:10.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;padding:8px 12px;cursor:pointer;white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis;" style-hover="border-color:#c2a15c;">
+            <span style="display:inline-flex;flex-direction:column;gap:3px;"><span style="width:14px;height:1px;background:currentColor;"></span><span style="width:14px;height:1px;background:currentColor;"></span><span style="width:14px;height:1px;background:currentColor;"></span></span>{{ pageLabel }}
+          </button>
+          <sc-if value="{{ navOpen }}" hint-placeholder-val="{{ false }}">
+            <div style="position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);z-index:9;min-width:200px;background:#15120e;border:1px solid rgba(194,161,92,.4);box-shadow:0 18px 44px rgba(0,0,0,.6);display:flex;flex-direction:column;animation:rise .2s ease both;">
+              <sc-for list="{{ navItems }}" as="n" hint-placeholder-count="5">
+                <button onClick="{{ n.go }}" style="{{ n.menuStyle }}">{{ n.label }}</button>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+      <div style="flex:0 0 auto;display:flex;align-items:center;gap:8px;">
+        <div style="position:relative;">
+          <button onClick="{{ toggleLang }}" aria-label="Langue" style="display:flex;align-items:center;gap:7px;background:none;border:1px solid rgba(194,161,92,.4);color:#e8dcc0;font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;padding:8px 12px;cursor:pointer;white-space:nowrap;" style-hover="border-color:#c2a15c;background:rgba(194,161,92,.12);">
+            <span style="font-size:12px;letter-spacing:0;line-height:1;">◍</span>{{ langCode }}<span style="font-size:8px;letter-spacing:0;opacity:.7;">▼</span>
+          </button>
+          <sc-if value="{{ langOpen }}" hint-placeholder-val="{{ false }}">
+            <div style="position:absolute;top:calc(100% + 8px);right:0;z-index:9;min-width:168px;background:#15120e;border:1px solid rgba(194,161,92,.4);box-shadow:0 18px 44px rgba(0,0,0,.6);display:flex;flex-direction:column;animation:rise .2s ease both;">
+              <sc-for list="{{ langs }}" as="l" hint-placeholder-count="8">
+                <button onClick="{{ l.go }}" style="{{ l.style }}">{{ l.name }}<span style="opacity:.55;font-size:9.5px;">{{ l.code }}</span></button>
+              </sc-for>
+            </div>
+          </sc-if>
+        </div>
+        <a data-wa href="{{ waHref }}" target="_blank" rel="noopener" aria-label="WhatsApp" style="display:flex;align-items:center;gap:7px;font-size:10.5px;font-weight:500;letter-spacing:.14em;text-decoration:none;color:#e8dcc0;border:1px solid rgba(194,161,92,.5);padding:8px 12px;white-space:nowrap;" style-hover="background:#25d366;color:#0b2416;border-color:#25d366;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 4.54 0 8.24 3.7 8.24 8.24s-3.7 8.24-8.23 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"/></svg><span data-label style="display:inline;">WhatsApp</span></a>
+        <a href="{{ telHref }}" aria-label="{{ phone }}" style="display:flex;align-items:center;gap:7px;font-size:10.5px;font-weight:500;letter-spacing:.14em;text-decoration:none;color:#e8dcc0;border:1px solid rgba(194,161,92,.5);padding:8px 12px;white-space:nowrap;" style-hover="background:#c2a15c;color:#100e0b;border-color:#c2a15c;"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"></path></svg><span data-label style="display:inline;">{{ phone }}</span></a>
+      </div>
+    </header>
+    <main style="position:relative;z-index:1;">
+      <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+        <section data-screen-label="Accueil" style="position:relative;scroll-snap-align:start;min-height:calc(100vh - 60px);min-height:calc(100dvh - 60px);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:clamp(24px,4vh,64px) clamp(20px,6vw,80px) clamp(72px,11vh,110px);box-sizing:border-box;overflow:hidden;">
+          <div style="position:absolute;top:0;left:0;right:0;bottom:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse 40% 82% at 50% 50%,rgba(16,14,11,.96) 0%,rgba(16,14,11,.9) 46%,rgba(16,14,11,.5) 74%,rgba(16,14,11,0) 100%);"></div>
+          <div style="position:relative;display:flex;flex-direction:column;align-items:center;gap:0;width:min(100%,820px);">
+            <svg viewBox="0 0 64 64" width="72" height="72" aria-hidden="true" style="width:clamp(56px,8vh,84px);height:auto;"><circle cx="32" cy="32" r="30" fill="none" stroke="#c2a15c" stroke-width="1.5"/><circle cx="32" cy="32" r="25.5" fill="none" stroke="#c2a15c" stroke-width=".8" opacity=".55"/><text x="32" y="43.5" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif" font-weight="300" font-size="37" fill="#f1eade">É</text></svg>
+            <p style="margin:clamp(14px,2.4vh,22px) 0 0;font-size:10.5px;font-weight:500;letter-spacing:.34em;text-transform:uppercase;color:#c2a15c;">{{ t.kick }}</p>
+            <h1 style="margin:clamp(6px,1.4vh,14px) 0 0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:min(clamp(64px,15vw,224px),24vh);line-height:.9;letter-spacing:.02em;">{{ t.h1a }}</h1>
+            <p style="margin:clamp(8px,1.6vh,16px) 0 0;display:flex;align-items:center;gap:clamp(12px,2vw,22px);font-size:clamp(11px,1.1vw,13px);font-weight:500;letter-spacing:.42em;text-transform:uppercase;color:#e8dcc0;white-space:nowrap;"><span style="width:clamp(28px,5vw,64px);height:1px;background:rgba(194,161,92,.6);"></span>{{ t.h1b }}<span style="width:clamp(28px,5vw,64px);height:1px;background:rgba(194,161,92,.6);"></span></p>
+            <p style="margin:clamp(20px,3.6vh,36px) 0 0;font-family:'Cormorant Garamond',serif;font-weight:300;font-style:italic;font-size:clamp(19px,2.2vw,27px);line-height:1.35;color:#d9cfbd;max-width:34ch;text-wrap:balance;">{{ t.tag }}</p>
+            <div style="display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:clamp(20px,3.4vh,34px);">
+              <a href="{{ telHref }}" style="font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:#100e0b;background:#c2a15c;padding:15px 26px;white-space:nowrap;" style-hover="background:#e8dcc0;color:#100e0b;">{{ t.reserve }}</a>
+              <button onClick="{{ goMenu }}" style="font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#e8dcc0;background:none;border:1px solid rgba(194,161,92,.55);padding:14px 24px;cursor:pointer;white-space:nowrap;" style-hover="background:#c2a15c;color:#100e0b;border-color:#c2a15c;">{{ t.seeMenu }}</button>
+            </div>
+            <p style="margin:clamp(18px,3vh,30px) 0 0;font-size:9.5px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#b5a894;">119 route de Colmar · Ingersheim · {{ t.meta2 }}</p>
+          </div>
+          <div style="position:absolute;left:0;right:0;bottom:clamp(18px,3vh,30px);display:flex;justify-content:center;pointer-events:none;">
+            <span style="display:flex;align-items:center;gap:8px;font-size:9.5px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#b5a894;background:rgba(16,14,11,.85);padding:5px 10px;"><span>{{ t.cue }}</span><span style="animation:cue 2s ease-in-out infinite;font-size:12px;letter-spacing:0;">↓</span></span>
+          </div>
+        </section>
+        <section data-screen-label="Signatures" style="position:relative;scroll-snap-align:start;min-height:calc(100vh - 60px);min-height:calc(100dvh - 60px);display:flex;align-items:center;padding:clamp(30px,5vh,80px) clamp(20px,6vw,80px);box-sizing:border-box;">
+          <div style="width:min(100%,1080px);margin:0 auto;">
+            <p style="margin:0 0 clamp(20px,3vh,34px);font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.trioL }}</p>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:clamp(18px,2.4vw,34px);">
+              <sc-for list="{{ trio }}" as="c" hint-placeholder-count="3">
+                <article style="background:rgba(16,14,11,.78);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid rgba(194,161,92,.55);padding:24px 22px 26px;box-sizing:border-box;">
+                  <p style="margin:0 0 14px;font-size:9.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#c2a15c;">{{ c.n }}</p>
+                  <h2 style="margin:0 0 12px;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(28px,3vw,40px);line-height:1.06;">{{ c.t }}</h2>
+                  <p style="margin:0;font-size:15px;line-height:1.55;color:#cabfab;text-wrap:pretty;">{{ c.x }}</p>
+                </article>
+              </sc-for>
+            </div>
+            <button onClick="{{ goMenu }}" style="margin-top:clamp(22px,3vh,34px);font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#100e0b;background:#c2a15c;border:none;padding:15px 28px;cursor:pointer;" style-hover="background:#e8dcc0;">{{ t.seeMenu }}</button>
+          </div>
+        </section>
+        <section data-screen-label="La maison" style="position:relative;scroll-snap-align:start;min-height:calc(100vh - 60px);min-height:calc(100dvh - 60px);display:flex;align-items:center;padding:clamp(30px,5vh,80px) clamp(20px,6vw,80px);box-sizing:border-box;">
+          <div style="width:min(100%,1180px);margin:0 auto;">
+            <div style="display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:clamp(16px,2.4vh,26px);">
+              <p style="margin:0;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.galL }}</p>
+              <p style="margin:0;font-size:10.5px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:#c2a15c;">4,6 / 5 · 132 {{ t.revU }}</p>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:clamp(10px,1.4vw,18px);">
+                <figure style="margin:0;display:flex;flex-direction:column;gap:9px;">
+                  <img src="photos/facade.jpg" alt="{{ t.capFacade }}" decoding="async" width="760" height="613" style="display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border:1px solid rgba(194,161,92,.3);filter:saturate(.88) contrast(1.04) brightness(.96);" />
+                  <figcaption style="font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#b5a894;">{{ t.capFacade }}</figcaption>
+                </figure>
+                <figure style="margin:0;display:flex;flex-direction:column;gap:9px;">
+                  <img src="photos/alinazik.jpg" alt="{{ t.capDish }}" decoding="async" width="760" height="597" style="display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border:1px solid rgba(194,161,92,.3);filter:saturate(.88) contrast(1.04) brightness(.96);" />
+                  <figcaption style="font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#b5a894;">{{ t.capDish }}</figcaption>
+                </figure>
+                <figure style="margin:0;display:flex;flex-direction:column;gap:9px;">
+                  <img src="photos/durum.jpg" alt="{{ t.capDurum }}" decoding="async" width="760" height="613" style="display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border:1px solid rgba(194,161,92,.3);filter:saturate(.88) contrast(1.04) brightness(.96);" />
+                  <figcaption style="font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#b5a894;">{{ t.capDurum }}</figcaption>
+                </figure>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,215px),1fr));gap:clamp(14px,2vw,30px);margin-top:clamp(20px,3vh,34px);padding-top:clamp(18px,2.6vh,26px);border-top:1px solid rgba(194,161,92,.3);">
+              <sc-for list="{{ quotes }}" as="q" hint-placeholder-count="2">
+                <blockquote style="margin:0;">
+                  <p style="margin:0 0 8px;font-family:'Cormorant Garamond',serif;font-weight:300;font-style:italic;font-size:clamp(19px,2vw,26px);line-height:1.3;color:#f1eade;text-wrap:pretty;">{{ q.q }}</p>
+                  <footer style="font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#b5a894;">{{ q.a }} · {{ t.revU }}</footer>
+                </blockquote>
+              </sc-for>
+              <div style="display:flex;flex-direction:column;justify-content:flex-end;gap:8px;">
+                <p style="margin:0;font-size:12.5px;line-height:1.5;color:#b5a894;text-wrap:pretty;">{{ t.revNote }}</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Restaurant+Elite+119+route+de+Colmar+68040+Ingersheim" target="_blank" rel="noopener" style="font-size:10.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;">{{ t.revLink }} ↗</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section data-screen-label="Manifeste" style="position:relative;scroll-snap-align:start;min-height:calc(100vh - 60px);min-height:calc(100dvh - 60px);display:flex;align-items:center;padding:clamp(30px,5vh,80px) clamp(20px,6vw,80px);box-sizing:border-box;">
+          <div style="width:min(100%,1080px);margin:0 auto;">
+            <p style="margin:0 0 clamp(14px,2.2vh,24px);font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.manifL }}</p>
+            <h2 style="margin:0 0 clamp(22px,3.4vh,38px);font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(32px,5vw,68px);line-height:1.02;letter-spacing:-.01em;text-wrap:balance;">{{ t.manifT }}<span style="font-style:italic;color:#c2a15c;"> {{ t.manifTi }}</span></h2>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:clamp(20px,3vw,46px);align-items:start;">
+              <p style="margin:0;font-size:clamp(17px,1.45vw,20px);line-height:1.7;color:#d9cfbd;text-wrap:pretty;">{{ t.manifP1 }}</p>
+              <p style="margin:0;font-size:clamp(17px,1.45vw,20px);line-height:1.7;color:#d9cfbd;text-wrap:pretty;">{{ t.manifP2 }}</p>
+              <p style="margin:0;font-size:clamp(17px,1.45vw,20px);line-height:1.7;color:#d9cfbd;text-wrap:pretty;">{{ t.manifP3 }}</p>
+            </div>
+            <p style="margin:clamp(24px,3.6vh,40px) 0 0;padding-top:clamp(16px,2.4vh,22px);border-top:1px solid rgba(194,161,92,.3);font-family:'Cormorant Garamond',serif;font-weight:300;font-style:italic;font-size:clamp(20px,2.6vw,32px);line-height:1.3;color:#f1eade;max-width:46ch;text-wrap:pretty;">{{ t.manifQ }}</p>
+          </div>
+        </section>
+      </sc-if>
+      <sc-if value="{{ isMenu }}" hint-placeholder-val="{{ false }}">
+        <section data-screen-label="Carte" style="position:relative;padding:clamp(30px,6vh,72px) clamp(20px,6vw,80px) clamp(60px,10vh,110px);box-sizing:border-box;">
+          <div style="width:min(100%,1180px);margin:0 auto;animation:rise .45s ease both;">
+            <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;border-bottom:1px solid rgba(194,161,92,.3);padding-bottom:18px;margin-bottom:clamp(24px,4vh,42px);">
+              <h1 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,6vw,86px);line-height:1;">{{ t.menuT }}</h1>
+              <p style="margin:0;max-width:44ch;font-size:13.5px;line-height:1.5;color:#b5a894;text-wrap:pretty;">{{ t.menuNote }}</p>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:clamp(20px,3vw,46px);margin-bottom:clamp(26px,4vh,44px);">
+              <p style="margin:0;font-size:clamp(17px,1.45vw,20px);line-height:1.7;color:#d9cfbd;text-wrap:pretty;">{{ t.menuLead1 }}</p>
+              <p style="margin:0;font-size:clamp(17px,1.45vw,20px);line-height:1.7;color:#d9cfbd;text-wrap:pretty;">{{ t.menuLead2 }}</p>
+            </div>
+            <div style="margin-bottom:clamp(30px,4.6vh,52px);padding-bottom:clamp(22px,3vh,32px);border-bottom:1px solid rgba(194,161,92,.3);">
+              <p style="margin:0 0 16px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.howL }}</p>
+              <ol style="margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(16px,2.4vw,34px);">
+                <sc-for list="{{ how }}" as="s" hint-placeholder-count="3">
+                  <li style="border-top:1px solid rgba(232,220,192,.14);padding-top:14px;">
+                    <p style="margin:0 0 8px;font-family:'Cormorant Garamond',serif;font-weight:400;font-style:italic;font-size:24px;line-height:1;color:#c2a15c;">{{ s.n }}</p>
+                    <h3 style="margin:0 0 7px;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(20px,2.2vw,26px);line-height:1.15;">{{ s.t }}</h3>
+                    <p style="margin:0;font-size:16px;line-height:1.65;color:#cabfab;text-wrap:pretty;">{{ s.x }}</p>
+                  </li>
+                </sc-for>
+              </ol>
+            </div>
+            <div style="columns:clamp(260px,26vw,340px);column-gap:clamp(26px,3vw,48px);">
+              <sc-for list="{{ menuGroups }}" as="g" hint-placeholder-count="12">
+                <section style="break-inside:avoid;page-break-inside:avoid;margin:0 0 clamp(26px,3.4vh,40px);">
+                  <h2 style="margin:0 0 4px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#c2a15c;">{{ g.title }}</h2>
+                  <p style="margin:0 0 12px;font-size:12px;line-height:1.4;color:#b5a894;">{{ g.note }}</p>
+                  <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;">
+                    <sc-for list="{{ g.items }}" as="it" hint-placeholder-count="5">
+                      <li style="display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid rgba(232,220,192,.14);">
+                        <span style="flex:1 1 auto;min-width:0;">
+                          <span style="display:block;font-size:16px;line-height:1.3;">{{ it.n }}</span>
+                          <span style="display:block;font-size:13px;line-height:1.45;color:#b5a894;text-wrap:pretty;">{{ it.d }}</span>
+                        </span>
+                        <span style="flex:0 0 auto;font-size:15px;color:#c2a15c;white-space:nowrap;">{{ it.p }}</span>
+                      </li>
+                    </sc-for>
+                  </ul>
+                </section>
+              </sc-for>
+            </div>
+            <div style="margin-top:clamp(30px,5vh,52px);padding-top:clamp(18px,2.6vh,26px);border-top:1px solid rgba(194,161,92,.3);">
+              <p style="margin:0 0 14px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.boardL }}</p>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:clamp(14px,2vw,24px);">
+                  <img src="photos/carte-1.jpg" alt="{{ t.boardL }}" decoding="async" width="686" height="934" style="display:block;width:100%;height:auto;border:1px solid rgba(194,161,92,.3);filter:saturate(.9) contrast(1.05);" />
+                  <img src="photos/carte-2.jpg" alt="{{ t.boardL }}" decoding="async" width="766" height="908" style="display:block;width:100%;height:auto;border:1px solid rgba(194,161,92,.3);filter:saturate(.9) contrast(1.05);" />
+              </div>
+            </div>
+            <div style="margin-top:clamp(34px,5vh,58px);padding-top:clamp(18px,2.6vh,26px);border-top:1px solid rgba(194,161,92,.3);">
+              <p style="margin:0 0 6px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.lexL }}</p>
+              <p style="margin:0 0 18px;max-width:62ch;font-size:clamp(16px,1.3vw,18px);line-height:1.65;color:#d9cfbd;text-wrap:pretty;">{{ t.lexNote }}</p>
+              <dl style="margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:0 clamp(20px,3vw,46px);">
+                <sc-for list="{{ lex }}" as="l" hint-placeholder-count="16">
+                  <div style="padding:13px 0;border-top:1px solid rgba(232,220,192,.14);">
+                    <dt style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(24px,2.2vw,29px);line-height:1.15;margin-bottom:5px;">{{ l.k }}</dt>
+                    <dd style="margin:0;font-size:15.5px;line-height:1.6;color:#cabfab;text-wrap:pretty;">{{ l.v }}</dd>
+                  </div>
+                </sc-for>
+              </dl>
+            </div>
+          </div>
+        </section>
+      </sc-if>
+      <sc-if value="{{ isPlace }}" hint-placeholder-val="{{ false }}">
+        <section data-screen-label="Le restaurant" style="position:relative;z-index:1;padding:clamp(30px,6vh,72px) clamp(20px,6vw,80px) clamp(60px,10vh,110px);box-sizing:border-box;">
+          <div style="width:min(100%,1120px);margin:0 auto;animation:rise .45s ease both;">
+            <p style="display:flex;align-items:center;gap:12px;margin:0 0 clamp(14px,2.4vh,26px);font-size:10.5px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:#c2a15c;"><span style="width:34px;height:1px;background:linear-gradient(90deg,transparent,#c2a15c);"></span>{{ t.storyL }}</p>
+            <h1 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,7vw,104px);line-height:.98;letter-spacing:-.01em;text-wrap:balance;">{{ t.storyT }}<span style="display:block;font-style:italic;color:#c2a15c;">{{ t.storyTi }}</span></h1>
+            <div style="height:24px;margin:clamp(22px,3.6vh,40px) 0;background-image:url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2288%22 height=%2224%22 viewBox=%220 0 88 24%22%3E%3Cg fill=%22none%22 stroke=%22%23c2a15c%22 stroke-width=%221%22%3E%3Cpath d=%22M0 12h20M68 12h20%22/%3E%3Cpath d=%22M44 2l10 10-10 10-10-10z%22/%3E%3Cpath d=%22M44 6l6 6-6 6-6-6z%22/%3E%3Ccircle cx=%2227%22 cy=%2212%22 r=%223%22/%3E%3Ccircle cx=%2261%22 cy=%2212%22 r=%223%22/%3E%3C/g%3E%3C/svg%3E');background-repeat:repeat-x;background-position:left center;opacity:.5;"></div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:clamp(24px,4vw,64px);align-items:start;">
+              <div>
+                <p style="margin:0 0 18px;font-size:clamp(17px,1.8vw,21px);line-height:1.5;color:#f1eade;text-wrap:pretty;"><span style="float:left;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:3.05em;line-height:.82;padding:4px 7px 0 0;color:#c2a15c;">{{ leadCap }}</span>{{ leadRest }}</p>
+                <p style="margin:0 0 20px;font-size:clamp(17px,1.45vw,20px);line-height:1.7;color:#d9cfbd;text-wrap:pretty;">{{ t.storyP2 }}</p>
+                <blockquote style="margin:26px 0;padding:0 0 0 20px;border-left:1px solid rgba(194,161,92,.5);">
+                  <p style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:300;font-style:italic;font-size:clamp(22px,2.6vw,33px);line-height:1.25;color:#f1eade;text-wrap:pretty;">{{ t.storyQuote }}</p>
+                </blockquote>
+                <p style="margin:0;font-size:clamp(17px,1.45vw,20px);line-height:1.7;color:#d9cfbd;text-wrap:pretty;">{{ t.storyP3 }}</p>
+                <sc-if value="{{ hasStoryNote }}" hint-placeholder-val="{{ false }}"><p style="margin:22px 0 0;font-size:12px;line-height:1.5;letter-spacing:.02em;color:#b5a894;border-top:1px solid rgba(232,220,192,.14);padding-top:12px;text-wrap:pretty;">{{ t.storyNote }}</p></sc-if>
+              </div>
+              <aside style="display:flex;flex-direction:column;gap:0;border-top:1px solid rgba(194,161,92,.45);padding-top:16px;">
+                <p style="margin:0 0 6px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.marksL }}</p>
+                <sc-for list="{{ marks }}" as="m" hint-placeholder-count="3">
+                  <div style="padding:16px 0;border-bottom:1px solid rgba(232,220,192,.12);">
+                    <p style="margin:0 0 4px;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:26px;line-height:1.1;color:#e8dcc0;">{{ m.k }}</p>
+                    <p style="margin:0;font-size:13px;line-height:1.45;color:#b5a894;text-wrap:pretty;">{{ m.v }}</p>
+                  </div>
+                </sc-for>
+                <figure style="margin:20px 0 0;">
+                  <img src="photos/facade.jpg" width="760" height="613" decoding="async" alt="{{ t.capFacade }}" style="display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border:1px solid rgba(194,161,92,.3);filter:saturate(.9) contrast(1.05);" />
+                  <figcaption style="margin-top:8px;font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#b5a894;">{{ t.capFacade }}</figcaption>
+                </figure>
+              </aside>
+            </div>
+            <div style="height:24px;margin:clamp(30px,5vh,56px) 0 clamp(20px,3vh,32px);background-image:url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2288%22 height=%2224%22 viewBox=%220 0 88 24%22%3E%3Cg fill=%22none%22 stroke=%22%23c2a15c%22 stroke-width=%221%22%3E%3Cpath d=%22M0 12h20M68 12h20%22/%3E%3Cpath d=%22M44 2l10 10-10 10-10-10z%22/%3E%3Cpath d=%22M44 6l6 6-6 6-6-6z%22/%3E%3Ccircle cx=%2227%22 cy=%2212%22 r=%223%22/%3E%3Ccircle cx=%2261%22 cy=%2212%22 r=%223%22/%3E%3C/g%3E%3C/svg%3E');background-repeat:repeat-x;background-position:left center;opacity:.5;"></div>
+            <div style="margin-bottom:clamp(30px,4.6vh,52px);">
+              <p style="margin:0 0 16px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.practL }}</p>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:0 clamp(20px,3vw,46px);">
+                <sc-for list="{{ pract }}" as="p" hint-placeholder-count="6">
+                  <div style="padding:15px 0;border-top:1px solid rgba(232,220,192,.14);">
+                    <h3 style="margin:0 0 6px;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(21px,2.2vw,27px);line-height:1.15;">{{ p.k }}</h3>
+                    <p style="margin:0;font-size:16px;line-height:1.65;color:#cabfab;text-wrap:pretty;">{{ p.v }}</p>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:clamp(20px,2.6vw,36px);">
+              <sc-for list="{{ placeCards }}" as="c" hint-placeholder-count="3">
+                <article style="background:rgba(16,14,11,.78);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid rgba(194,161,92,.55);padding:24px 22px 26px;box-sizing:border-box;">
+                  <p style="margin:0 0 14px;font-family:'Cormorant Garamond',serif;font-weight:400;font-style:italic;font-size:26px;line-height:1;color:#c2a15c;">{{ c.n }}</p>
+                  <h2 style="margin:0 0 12px;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(26px,2.8vw,36px);line-height:1.08;">{{ c.t }}</h2>
+                  <p style="margin:0 0 16px;font-size:15px;line-height:1.55;color:#cabfab;text-wrap:pretty;">{{ c.x }}</p>
+                  <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;">
+                    <sc-for list="{{ c.rows }}" as="r" hint-placeholder-count="3">
+                      <li style="display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid rgba(232,220,192,.14);font-size:13.5px;"><span style="flex:1 1 auto;min-width:0;">{{ r.k }}</span><span style="flex:0 0 auto;white-space:nowrap;font-size:12px;color:#b5a894;">{{ r.v }}</span></li>
+                    </sc-for>
+                  </ul>
+                </article>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+      </sc-if>
+      <sc-if value="{{ isColmar }}" hint-placeholder-val="{{ false }}">
+        <section data-screen-label="Colmar" style="position:relative;z-index:1;padding:clamp(30px,6vh,72px) clamp(20px,6vw,80px) clamp(60px,10vh,110px);box-sizing:border-box;">
+          <div style="width:min(100%,1080px);margin:0 auto;animation:rise .45s ease both;">
+            <h1 style="margin:0 0 20px;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(34px,5.2vw,72px);line-height:1.02;border-bottom:1px solid rgba(194,161,92,.3);padding-bottom:18px;text-wrap:balance;">{{ t.seoT }}<span style="font-style:italic;color:#c2a15c;"> {{ t.seoTi }}</span></h1>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:clamp(18px,2.6vw,38px);max-width:880px;">
+              <p style="margin:0;font-size:clamp(17px,1.45vw,20px);line-height:1.7;color:#d9cfbd;text-wrap:pretty;">{{ t.seoP1 }}</p>
+              <p style="margin:0;font-size:clamp(17px,1.45vw,20px);line-height:1.7;color:#d9cfbd;text-wrap:pretty;">{{ t.seoP2 }}</p>
+            </div>
+            <h2 style="margin:clamp(34px,5vh,56px) 0 18px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.dishL }}</h2>
+            <dl style="margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:0 clamp(20px,3vw,44px);">
+              <sc-for list="{{ dishes }}" as="d" hint-placeholder-count="9">
+                <div style="padding:14px 0;border-top:1px solid rgba(232,220,192,.14);">
+                  <dt style="font-family:'Cormorant Garamond',serif;font-weight:400;font-size:22px;line-height:1.15;margin-bottom:5px;">{{ d.n }}</dt>
+                  <dd style="margin:0;font-size:14px;line-height:1.5;color:#b5a894;text-wrap:pretty;">{{ d.x }}</dd>
+                </div>
+              </sc-for>
+            </dl>
+            <h2 style="margin:clamp(34px,5vh,56px) 0 16px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.zoneL }}</h2>
+            <ul style="margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px;">
+              <sc-for list="{{ zones }}" as="z" hint-placeholder-count="9">
+                <li style="font-size:13.5px;color:#e8dcc0;border:1px solid rgba(194,161,92,.3);padding:8px 14px;">{{ z }}</li>
+              </sc-for>
+            </ul>
+            <p style="margin:14px 0 0;font-size:12.5px;line-height:1.5;color:#b5a894;">{{ t.zoneNote }}</p>
+            <h2 style="margin:clamp(34px,5vh,56px) 0 4px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.faqL }}</h2>
+            <div style="max-width:780px;">
+              <sc-for list="{{ faq }}" as="f" hint-placeholder-count="5">
+                <div style="padding:18px 0;border-top:1px solid rgba(232,220,192,.14);">
+                  <h3 style="margin:0 0 7px;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:clamp(20px,2.2vw,27px);line-height:1.2;text-wrap:balance;">{{ f.q }}</h3>
+                  <p style="margin:0;font-size:15px;line-height:1.55;color:#cabfab;text-wrap:pretty;">{{ f.a }}</p>
+                </div>
+              </sc-for>
+            </div>
+            <a href="{{ telHref }}" style="display:inline-block;margin-top:clamp(28px,4vh,44px);font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:#100e0b;background:#c2a15c;padding:16px 30px;" style-hover="background:#e8dcc0;color:#100e0b;">{{ t.call }} · {{ phone }}</a>
+          </div>
+        </section>
+      </sc-if>
+      <sc-if value="{{ isContact }}" hint-placeholder-val="{{ false }}">
+        <section data-screen-label="Contact" style="position:relative;padding:clamp(30px,6vh,72px) clamp(20px,6vw,80px) clamp(60px,10vh,110px);box-sizing:border-box;">
+          <div style="width:min(100%,1080px);margin:0 auto;animation:rise .45s ease both;">
+            <svg viewBox="0 0 64 64" width="52" height="52" aria-hidden="true" style="display:block;margin-bottom:14px;"><circle cx="32" cy="32" r="30" fill="none" stroke="#c2a15c" stroke-width="1.5"/><circle cx="32" cy="32" r="25.5" fill="none" stroke="#c2a15c" stroke-width=".8" opacity=".55"/><text x="32" y="43.5" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif" font-weight="300" font-size="37" fill="#f1eade">É</text></svg>
+            <h1 style="margin:0 0 clamp(24px,4vh,44px);font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(40px,6vw,86px);line-height:1;border-bottom:1px solid rgba(194,161,92,.3);padding-bottom:18px;">{{ t.contactT }}<span style="font-style:italic;color:#c2a15c;"> {{ t.contactTi }}</span></h1>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(20px,3vw,44px);">
+              <div>
+                <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
+                  <h2 style="margin:0;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.hoursT }}</h2>
+                  <sc-if value="{{ hoursDemo }}" hint-placeholder-val="{{ true }}"><span style="font-size:9px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:#c2a15c;border:1px dashed rgba(194,161,92,.6);padding:2px 6px;">{{ t.demo }}</span></sc-if>
+                </div>
+                <p style="margin:0 0 8px;font-size:15.5px;line-height:1.45;">{{ t.d1 }}<br><span style="font-size:13px;color:#b5a894;">11:30 – 14:30 · 18:00 – 23:00</span></p>
+                <p style="margin:0;font-size:15.5px;">{{ t.d2 }} — <span style="font-size:13px;color:#b5a894;">{{ t.closed }}</span></p>
+              </div>
+              <div>
+                <h2 style="margin:0 0 12px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.addrT }}</h2>
+                <p style="margin:0 0 8px;font-size:15.5px;line-height:1.45;">119 route de Colmar<br>68040 Ingersheim</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=119+route+de+Colmar+68040+Ingersheim" target="_blank" rel="noopener" style="font-size:10.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;">{{ t.map }} ↗</a>
+              </div>
+              <div>
+                <h2 style="margin:0 0 12px;font-size:11.5px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:#b5a894;">{{ t.amT }}</h2>
+                <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px;">
+                  <sc-for list="{{ amenities }}" as="am" hint-placeholder-count="5"><li style="font-size:14.5px;line-height:1.35;">{{ am }}</li></sc-for>
+                </ul>
+              </div>
+            </div>
+            <a href="{{ telHref }}" style="display:inline-block;margin-top:clamp(26px,4vh,40px);font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;color:#100e0b;background:#c2a15c;padding:16px 30px;" style-hover="background:#e8dcc0;color:#100e0b;">{{ t.call }} · {{ phone }}</a>
+            <p style="margin:clamp(30px,5vh,48px) 0 0;padding:0 0 120px;font-size:10.5px;line-height:1.8;letter-spacing:.04em;color:#b5a894;text-wrap:pretty;">{{ legal }}</p>
+          </div>
+        </section>
+      </sc-if>
+    </main>
+  </div>
+  <div style="position:absolute;right:clamp(14px,2.4vw,28px);bottom:clamp(14px,2.4vw,28px);z-index:20;display:flex;flex-direction:column;align-items:flex-end;gap:10px;max-width:calc(100% - 28px);">
+    <sc-if value="{{ chatOpen }}" hint-placeholder-val="{{ false }}">
+      <div style="width:min(92vw,352px);max-height:min(72vh,540px);display:flex;flex-direction:column;background:#15120e;border:1px solid rgba(194,161,92,.4);box-shadow:0 24px 60px rgba(0,0,0,.55);animation:rise .3s ease both;box-sizing:border-box;">
+        <div style="flex:0 0 auto;display:flex;align-items:flex-start;justify-content:space-between;gap:10px;padding:14px 16px;border-bottom:1px solid rgba(194,161,92,.26);">
+          <div style="display:flex;align-items:flex-start;gap:10px;">
+            <svg viewBox="0 0 64 64" width="24" height="24" aria-hidden="true" style="flex:0 0 auto;margin-top:1px;"><circle cx="32" cy="32" r="30" fill="none" stroke="#c2a15c" stroke-width="1.5"/><circle cx="32" cy="32" r="25.5" fill="none" stroke="#c2a15c" stroke-width=".8" opacity=".55"/><text x="32" y="43.5" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif" font-weight="300" font-size="37" fill="#f1eade">É</text></svg>
+            <div>
+            <p style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:400;font-size:19px;line-height:1.2;">{{ t.cTitle }}</p>
+            <p style="margin:3px 0 0;font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:#b5a894;">{{ t.cDemo }}</p>
+            </div>
+          </div>
+          <button onClick="{{ toggleChat }}" aria-label="Fermer" style="flex:0 0 auto;background:none;border:1px solid rgba(194,161,92,.3);color:#e8dcc0;width:28px;height:28px;line-height:1;cursor:pointer;font-size:14px;" style-hover="background:#c2a15c;color:#100e0b;">×</button>
+        </div>
+        <div style="flex:1 1 auto;min-height:0;overflow-y:auto;padding:14px 16px;display:flex;flex-direction:column;gap:10px;">
+          <sc-for list="{{ msgs }}" as="m" hint-placeholder-count="2">
+            <div style="{{ m.style }}">{{ m.text }}</div>
+          </sc-for>
+        </div>
+        <div style="flex:0 0 auto;display:flex;flex-wrap:wrap;gap:6px;padding:0 16px 12px;">
+          <sc-for list="{{ chips }}" as="c" hint-placeholder-count="4">
+            <button onClick="{{ c.go }}" style="background:none;border:1px solid rgba(194,161,92,.3);color:#cabfab;font-size:11.5px;padding:7px 11px;cursor:pointer;" style-hover="border-color:#c2a15c;color:#f1eade;">{{ c.label }}</button>
+          </sc-for>
+        </div>
+        <div style="flex:0 0 auto;display:flex;gap:0;border-top:1px solid rgba(194,161,92,.26);">
+          <input value="{{ draft }}" onChange="{{ onDraft }}" onKeyDown="{{ onKey }}" placeholder="{{ t.cPlace }}" style="flex:1 1 auto;min-width:0;background:none;border:none;outline:none;padding:13px 16px;font-size:14px;" />
+          <button onClick="{{ send }}" style="flex:0 0 auto;background:#c2a15c;color:#100e0b;border:none;padding:0 18px;font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;" style-hover="background:#e8dcc0;">{{ t.cSend }}</button>
+        </div>
+      </div>
+    </sc-if>
+    <a href="{{ waHref }}" target="_blank" rel="noopener" aria-label="WhatsApp" style="display:flex;align-items:center;gap:9px;background:#25d366;color:#0b2416;text-decoration:none;padding:13px 18px;font-size:10.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;box-shadow:0 12px 32px rgba(0,0,0,.45);white-space:nowrap;" style-hover="background:#e8dcc0;color:#100e0b;"><svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2m0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 4.54 0 8.24 3.7 8.24 8.24s-3.7 8.24-8.23 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"/></svg><span>WhatsApp</span></a>
+    <button onClick="{{ toggleChat }}" style="display:flex;align-items:center;gap:9px;background:#c2a15c;color:#100e0b;border:none;padding:13px 18px;font-size:10.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;cursor:pointer;box-shadow:0 12px 32px rgba(0,0,0,.45);white-space:nowrap;" style-hover="background:#e8dcc0;">
+      <span style="font-size:13px;letter-spacing:0;">✳</span>{{ chatBtn }}
+    </button>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{},&quot;phone&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;09 52 87 54 93&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contenu&quot;},&quot;defaultLang&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;fr&quot;,&quot;tr&quot;,&quot;en&quot;,&quot;de&quot;,&quot;es&quot;,&quot;it&quot;,&quot;zh&quot;,&quot;ja&quot;],&quot;default&quot;:&quot;fr&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contenu&quot;},&quot;hoursAreDemo&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Données&quot;},&quot;sceneDensity&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;min&quot;:8,&quot;max&quot;:40,&quot;step&quot;:2,&quot;default&quot;:20,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Scène 3D&quot;}}">
+const MENU = {
+  entrees: [['Salade verte', '5,50'], ['Salade composée', '6,50'], ['Salade Bergere', '7,00'], ['Cacik', '5,50'], ['Icli Köfte', '7,90', '2 pièces'], ['Lahmacun', '6,00'], ['Mezzés', '7,00'], ['Burrata', '10,90'], ['Tomates mozzarella', '6,90'], ['Aubergine', '5,50']],
+  assiettes: [['Iskender', '15,50'], ['Doner poulet ou bœuf', '12,90'], ['Kofte', '13,00'], ['Salade César', '10,90'], ['Lahmacun', '14,00'], ['Merguez', '13,00'], ['Escalope', '13,50'], ['Ali Nazik', '14,50'], ['Karniyarik', '15,50', '+1 € mozzarella'], ['Assiette végétarienne', '12,00']],
+  sandwichs: [['Doner', '6,00'], ['Américain Kebab', '7,00'], ['Yufka', '6,00'], ['Tacos', '7,00'], ['Tacos gratiné', '8,00'], ['Maxi tacos', '12,00'], ['Maxi tacos gratiné', '14,00'], ['Végétarien', '5,50'], ['Lahmacun avec viande kebab', '7,00'], ['Merguez', '7,00'], ['Escalope', '7,00'], ['Kofte', '7,00']],
+  burgers: [['Black Ember', '12,00', 'Double steak, 2 cheddar Us, oignons grillés, salade et sauce burger'], ['Burger Élite', '10,00', 'Galette de pomme de terre, steak, double cheddar Us, oignons grillés, salade et sauce burger'], ['La Calzonetta', '14,00', 'Double steak, mozza, cheddar, sauce burger et oignons grillés, sauce Brazil']],
+  menus: [['Kebab / Tacos', '10,00', '+ frites + canette'], ['Viande hachée, merguez ou escalope', '10,90', '+ frites + canette'], ['Maxi tacos', '14,50', '+ frites + canette'], ['Menu tacos gratiné', '12,00'], ['Maxi tacos gratiné', '16,50'], ['Menu enfant', '7,00', 'Hamburger ou nuggets + frites + Capri-Sun + bonbon']],
+  pizzaT: [['Margherita', '9,00', 'Mozzarella'], ['4 saisons', '11,00', 'Mozzarella, tomates fraiches, champignon, olives, poivrons, mais'], ['Thon', '11,00', 'Mozzarella, thon, oignons, olives'], ['Campagnarde', '11,00', 'Mozzarella, jambon de dinde fumé, chèvre, champignons'], ['Complète', '11,00', 'Mozzarella, viande hachée, champignons, oeuf'], ['Orientale', '11,00', 'Mozzarella, merguez, champignons, oeuf'], ['4 fromages', '10,00', 'Mozzarella, gorgonzola, chèvre, gruyère'], ['Western', '11,00', 'Mozzarella, émincé de poulet mariné, champignons, tomates fraiches, olives'], ['Doner', '11,00', 'Mozzarella, viande de doner, tomates fraiches, oignons'], ['Sucuk', '11,00', 'Champignons, olives, poivrons, saucisse turque']],
+  pizzaC: [['Savoyarde', '11,00', 'Mozzarella, lardon, oignons, pommes de terre'], ['Fermière', '11,00', 'Mozzarella, jambon de dinde fumé, pommes de terre'], ['Norvégienne', '11,00', 'Mozzarella, saumon, oignons, pommes de terre'], ['Buffalo', '11,00', 'Mozzarella, viande hachée, champignons, oignons'], ['Chicken', '11,00', 'Mozzarella, émincé de poulet mariné, champignons, olives, poivrons']],
+  tartes: [['Nature', '6,50', 'Lardons, oignons'], ['Gratinée', '7,50', 'Lardons, oignons, gruyère'], ['Forestière', '8,00', 'Lardons, oignons, gruyère, champignons'], ['Kebab', '8,00', 'Kebab, oignons'], ['Saumon', '9,00', 'Saumon, oignons, gruyère'], ['Viande hachée', '9,00', 'Viande hachée, oignons, mozzarella'], ['Chèvre miel', '9,50', 'Lardon, oignons, gruyère, chèvre, miel']],
+  pide: [['Fromage épinards', '9,00'], ['Viande hachée', '10,00'], ['Sucuk', '10,00', 'Saucisse turque'], ['Escalope', '10,00', 'Escalope, oignons, oeufs'], ['Doner', '11,00', 'Oignons, poivrons, viande de döner']],
+  portions: [['Petites frites', '2,50'], ['Grandes frites', '5,00'], ['Petites potatoes', '2,70'], ['Grandes potatoes', '5,40'], ['Nuggets', '3 / 5 / 8', 'x4 · x8 · x12'], ['Petite portion bulgur', '2,50'], ['Grande portion bulgur', '5,00']],
+  boissons: [['Cannettes 33 cl', '2,00'], ['Bouteilles 50 cl', '2,50'], ['Redbull', '3,00'], ['Capri-Sun', '1,00'], ['Apéritifs, bières', ''], ['Vins rouge ou rosé', ''], ['Cocktails, mocktails', '']],
+  desserts: [['Tiramisu', ''], ['Panna cotta', '', 'Mangue ou fruit rouge'], ['Tarte du jour', '', 'Citron, myrtille, chocolat']]
+};
+
+const L = [
+  ['fr', 'FR', 'Français'], ['tr', 'TR', 'Türkçe'], ['en', 'EN', 'English'], ['de', 'DE', 'Deutsch'],
+  ['es', 'ES', 'Español'], ['it', 'IT', 'Italiano'], ['zh', 'ZH', '中文'], ['ja', 'JA', '日本語']
+];
+
+const D = {
+  fr: { nav: ['Accueil', 'Carte', 'Le restaurant', 'Contact'],
+    kick: 'Cuisine turque · Ingersheim · Depuis 2024', h1a: 'Élite', h1b: 'Restaurant',
+    tag: 'Döner, kebab, lahmacun, pide et pizzas. Sur place, à emporter, en livraison.',
+    reserve: 'Réserver', cue: 'Faites défiler', meta2: 'Sur place · À emporter · Livraison',
+    trioL: 'Les signatures', seeMenu: 'Voir la carte',
+    trio: [['01', 'Döner et kebab', 'Viande de döner poulet ou bœuf, servie en assiette, en sandwich, en yufka ou en tacos.'],
+      ['02', 'Lahmacun et pide', 'Pâtes fines cuites à la commande : lahmacun, pide au fromage, au sucuk ou au döner.'],
+      ['03', 'Pizzas et tartes flambées', 'Base tomate ou crème fraîche, tartes flambées de la nature à la chèvre miel.']],
+    menuT: 'La carte', menuNote: 'Prix relevés sur la carte affichée au restaurant. Sous réserve de modification.',
+    cat: ['Entrées', 'Assiettes', 'Sandwichs', 'Burgers', 'Menus', 'Nos portions', 'Pizzas base tomate', 'Pizzas base crème fraîche', 'Tartes flambées', 'Pide', 'Boissons', 'Desserts'],
+    noteAssiettes: 'Salade + frites ou blé au choix', noteBurgers: 'Servis avec des frites croustillantes', noteMenus: 'Choix tacos : kebab, escalope, merguez, végétarien, viande hachée', noteDesserts: 'Fait maison', noteEmpty: '',
+    placeT: 'Le restaurant',
+    place: [['01', 'Le service', 'Service en salle, vente à emporter et livraison. Traiteur et événements sur demande.', [['Salle', 'Climatisée'], ['À emporter', 'Sur commande'], ['Traiteur et événements', 'Sur devis']]],
+      ['02', 'La salle', 'Salle climatisée, musique d\u2019ambiance, parking et accès de plain-pied.', [['Wi-Fi', 'Gratuit'], ['Parking', 'Sur place'], ['Accès', 'PMR']]],
+      ['03', 'Boissons et desserts', 'Apéritifs, bières, vins, cocktails et mocktails. Desserts faits maison.', [['Thé', 'Verre tulipe'], ['Desserts', 'Maison'], ['Cocktails', 'Carte du bar']]]],
+    contactT: 'Nous', contactTi: 'trouver', hoursT: 'Horaires', demo: 'Démo — à confirmer',
+    d1: 'Mardi – Dimanche', d2: 'Lundi', closed: 'Fermé', addrT: 'Adresse', map: 'Itinéraire', amT: 'Sur place', call: 'Appeler',
+    am: ['Musique d\u2019ambiance', 'Wi-Fi gratuit', 'Climatisation', 'Parking', 'Accès PMR'], tel: 'Tél.',
+    cTitle: 'Assistant Élite', cDemo: 'Réponses instantanées', cPlace: 'Votre question…', cSend: 'Envoyer', cBtn: 'Assistant',
+    cGreet: 'Bonjour. Je réponds sur la carte, les horaires, l\u2019adresse et la réservation.',
+    chips: ['Horaires', 'La carte', 'Réserver', 'Livraison'],
+    aHours: 'Mardi à dimanche, 11:30 – 14:30 et 18:00 – 23:00. Fermé le lundi.',
+    aMenu: 'Entrées, assiettes, sandwichs, burgers, pizzas, tartes flambées, pide et desserts maison. La carte complète est dans l\u2019onglet Carte.',
+    aAddr: '119 route de Colmar, 68040 Ingersheim. Parking sur place et accès de plain-pied.',
+    aReserve: 'Les réservations se font par téléphone au 09 52 87 54 93.',
+    aDelivery: 'Sur place, à emporter et en livraison. Pour une commande, appelez le 09 52 87 54 93.',
+    aVeg: 'Assiette végétarienne, sandwich végétarien, salades, cacik, aubergine, pizzas sans viande et tartes flambées au fromage.',
+    aPrice: 'Les prix figurent dans l\u2019onglet Carte, relevés sur la carte affichée au restaurant.',
+    aFallback: 'Je ne sais répondre que sur la carte, les horaires, l\u2019adresse, la livraison et la réservation. Pour le reste, appelez le 09 52 87 54 93.' },
+
+  tr: { nav: ['Ana sayfa', 'Menü', 'Restoran', 'İletişim'],
+    kick: 'Türk mutfağı · Ingersheim · 2024\u2019ten beri', h1a: 'Élite', h1b: 'Restaurant',
+    tag: 'Döner, kebap, lahmacun, pide ve pizza. Salonda, paket ve eve servis.',
+    reserve: 'Rezervasyon', cue: 'Kaydırın', meta2: 'Salonda · Paket · Eve servis',
+    trioL: 'İmza lezzetler', seeMenu: 'Menüyü gör',
+    trio: [['01', 'Döner ve kebap', 'Tavuk veya dana döner; porsiyon, sandviç, yufka veya tacos olarak.'],
+      ['02', 'Lahmacun ve pide', 'Sipariş üzerine pişen ince hamurlar: lahmacun, kaşarlı, sucuklu veya dönerli pide.'],
+      ['03', 'Pizza ve tarte flambée', 'Domates veya krema bazlı; sade\u2019den keçi peyniri-ballıya tarte flambée.']],
+    menuT: 'Menü', menuNote: 'Fiyatlar restoranda asılı menüden alınmıştır. Değişebilir.',
+    cat: ['Başlangıçlar', 'Porsiyonlar', 'Sandviçler', 'Burgerler', 'Menüler', 'Yan ürünler', 'Domates bazlı pizza', 'Krema bazlı pizza', 'Tarte flambée', 'Pide', 'İçecekler', 'Tatlılar'],
+    noteAssiettes: 'Salata + patates veya bulgur', noteBurgers: 'Çıtır patates ile', noteMenus: 'Tacos seçimi: kebap, escalope, merguez, vejetaryen, kıyma', noteDesserts: 'Ev yapımı', noteEmpty: '',
+    placeT: 'Restoran',
+    place: [['01', 'Servis', 'Salon servisi, paket satış ve eve teslim. Talep üzerine catering ve etkinlik.', [['Salon', 'Klimalı'], ['Paket', 'Sipariş üzerine'], ['Catering ve etkinlik', 'Teklif üzerine']]],
+      ['02', 'Salon', 'Klimalı salon, fon müziği, otopark ve zemin kat erişimi.', [['Wi-Fi', 'Ücretsiz'], ['Otopark', 'Mekânda'], ['Erişim', 'Engelli']]],
+      ['03', 'İçecek ve tatlı', 'Aperatifler, biralar, şaraplar, kokteyl ve mocktail. Ev yapımı tatlılar.', [['Çay', 'İnce belli bardak'], ['Tatlılar', 'Ev yapımı'], ['Kokteyller', 'Bar menüsü']]]],
+    contactT: 'Bize', contactTi: 'ulaşın', hoursT: 'Saatler', demo: 'Demo — teyit edilecek',
+    d1: 'Salı – Pazar', d2: 'Pazartesi', closed: 'Kapalı', addrT: 'Adres', map: 'Yol tarifi', amT: 'Mekânda', call: 'Ara',
+    am: ['Fon müziği', 'Ücretsiz Wi-Fi', 'Klima', 'Otopark', 'Engelli erişimi'], tel: 'Tel.',
+    cTitle: 'Élite asistanı', cDemo: 'Anında yanıt', cPlace: 'Sorunuz…', cSend: 'Gönder', cBtn: 'Asistan',
+    cGreet: 'Merhaba. Menü, çalışma saatleri, adres ve rezervasyon hakkında yanıt veriyorum.',
+    chips: ['Saatler', 'Menü', 'Rezervasyon', 'Eve servis'],
+    aHours: 'Salıdan pazara 11:30 – 14:30 ve 18:00 – 23:00. Pazartesi kapalı.',
+    aMenu: 'Başlangıçlar, porsiyonlar, sandviçler, burgerler, pizzalar, tarte flambée, pide ve ev yapımı tatlılar. Tam menü Menü sekmesinde.',
+    aAddr: '119 route de Colmar, 68040 Ingersheim. Otopark ve zemin kat erişimi mevcut.',
+    aReserve: 'Rezervasyonlar telefonla: 09 52 87 54 93. Bu demo restorana hiçbir bilgi iletmez.',
+    aDelivery: 'Salonda, paket ve eve servis. Sipariş için 09 52 87 54 93.',
+    aVeg: 'Vejetaryen porsiyon ve sandviç, salatalar, cacık, patlıcan, etsiz pizzalar ve kaşarlı tarte flambée.',
+    aPrice: 'Fiyatlar Menü sekmesinde, restoranda asılı menüden alınmıştır.',
+    aFallback: 'Yalnızca menü, saatler, adres, teslimat ve rezervasyon konusunda yardımcı olabilirim. Diğer sorular için 09 52 87 54 93.' },
+
+  en: { nav: ['Home', 'Menu', 'The restaurant', 'Contact'],
+    kick: 'Turkish cuisine · Ingersheim · Since 2024', h1a: 'Élite', h1b: 'Restaurant',
+    tag: 'Döner, kebab, lahmacun, pide and pizzas. Dine in, take away, delivery.',
+    reserve: 'Book a table', cue: 'Scroll', meta2: 'Dine in · Take away · Delivery',
+    trioL: 'Signature dishes', seeMenu: 'See the menu',
+    trio: [['01', 'Döner and kebab', 'Chicken or beef döner, served as a plate, in a sandwich, in yufka or in tacos.'],
+      ['02', 'Lahmacun and pide', 'Thin doughs baked to order: lahmacun, pide with cheese, sucuk or döner.'],
+      ['03', 'Pizzas and tartes flambées', 'Tomato or crème fraîche base, tartes flambées from plain to goat cheese and honey.']],
+    menuT: 'The menu', menuNote: 'Prices taken from the board displayed in the restaurant. Subject to change.',
+    cat: ['Starters', 'Plates', 'Sandwiches', 'Burgers', 'Meal deals', 'Sides', 'Tomato-base pizzas', 'Crème fraîche pizzas', 'Tartes flambées', 'Pide', 'Drinks', 'Desserts'],
+    noteAssiettes: 'Salad + fries or bulgur', noteBurgers: 'Served with crispy fries', noteMenus: 'Tacos choice: kebab, escalope, merguez, vegetarian, minced meat', noteDesserts: 'Homemade', noteEmpty: '',
+    placeT: 'The restaurant',
+    place: [['01', 'Service', 'Table service, takeaway and delivery. Catering and events on request.', [['Dining room', 'Air-conditioned'], ['Takeaway', 'To order'], ['Catering and events', 'On quote']]],
+      ['02', 'The room', 'Air-conditioned room, ambient music, parking and step-free access.', [['Wi-Fi', 'Free'], ['Parking', 'On site'], ['Access', 'Wheelchair']]],
+      ['03', 'Drinks and desserts', 'Aperitifs, beers, wines, cocktails and mocktails. Homemade desserts.', [['Tea', 'Tulip glass'], ['Desserts', 'Homemade'], ['Cocktails', 'Bar list']]]],
+    contactT: 'Find', contactTi: 'us', hoursT: 'Opening hours', demo: 'Demo — to be confirmed',
+    d1: 'Tuesday – Sunday', d2: 'Monday', closed: 'Closed', addrT: 'Address', map: 'Directions', amT: 'On site', call: 'Call',
+    am: ['Ambient music', 'Free Wi-Fi', 'Air conditioning', 'Parking', 'Wheelchair access'], tel: 'Phone',
+    cTitle: 'Élite assistant', cDemo: 'Instant answers', cPlace: 'Your question…', cSend: 'Send', cBtn: 'Assistant',
+    cGreet: 'Hello. I can answer about the menu, opening hours, address and booking.',
+    chips: ['Hours', 'The menu', 'Book', 'Delivery'],
+    aHours: 'Tuesday to Sunday, 11:30 – 14:30 and 18:00 – 23:00. Closed Monday.',
+    aMenu: 'Starters, plates, sandwiches, burgers, pizzas, tartes flambées, pide and homemade desserts. The full menu is in the Menu tab.',
+    aAddr: '119 route de Colmar, 68040 Ingersheim. Parking on site and step-free access.',
+    aReserve: 'Bookings are taken by phone on +33 9 52 87 54 93. This demo sends nothing to the restaurant.',
+    aDelivery: 'Dine in, take away and delivery. To order, call +33 9 52 87 54 93.',
+    aVeg: 'Vegetarian plate, vegetarian sandwich, salads, cacik, aubergine, meat-free pizzas and cheese tartes flambées.',
+    aPrice: 'Prices are listed in the Menu tab, taken from the board displayed in the restaurant.',
+    aFallback: 'I can only help with the menu, hours, address, delivery and booking. For anything else, please call +33 9 52 87 54 93.' },
+
+  de: { nav: ['Start', 'Karte', 'Das Restaurant', 'Kontakt'],
+    kick: 'Türkische Küche · Ingersheim · Seit 2024', h1a: 'Élite', h1b: 'Restaurant',
+    tag: 'Döner, Kebab, Lahmacun, Pide und Pizza. Im Haus, zum Mitnehmen, mit Lieferung.',
+    reserve: 'Tisch reservieren', cue: 'Scrollen', meta2: 'Im Haus · Mitnehmen · Lieferung',
+    trioL: 'Die Spezialitäten', seeMenu: 'Zur Karte',
+    trio: [['01', 'Döner und Kebab', 'Hähnchen- oder Rinderdöner, als Teller, im Sandwich, im Yufka oder im Tacos.'],
+      ['02', 'Lahmacun und Pide', 'Dünne Teige, frisch gebacken: Lahmacun, Pide mit Käse, Sucuk oder Döner.'],
+      ['03', 'Pizza und Flammkuchen', 'Mit Tomate oder Crème fraîche, Flammkuchen von klassisch bis Ziegenkäse-Honig.']],
+    menuT: 'Die Karte', menuNote: 'Preise von der im Restaurant ausgehängten Karte. Änderungen möglich.',
+    cat: ['Vorspeisen', 'Teller', 'Sandwiches', 'Burger', 'Menüs', 'Beilagen', 'Pizza mit Tomate', 'Pizza mit Crème fraîche', 'Flammkuchen', 'Pide', 'Getränke', 'Desserts'],
+    noteAssiettes: 'Salat + Pommes oder Bulgur', noteBurgers: 'Mit knusprigen Pommes', noteMenus: 'Tacos-Wahl: Kebab, Escalope, Merguez, vegetarisch, Hackfleisch', noteDesserts: 'Hausgemacht', noteEmpty: '',
+    placeT: 'Das Restaurant',
+    place: [['01', 'Der Service', 'Bedienung im Haus, Verkauf zum Mitnehmen und Lieferung. Catering und Feiern auf Anfrage.', [['Gastraum', 'Klimatisiert'], ['Mitnehmen', 'Auf Bestellung'], ['Catering und Feiern', 'Auf Anfrage']]],
+      ['02', 'Der Gastraum', 'Klimatisierter Raum, Hintergrundmusik, Parkplatz und schwellenloser Zugang.', [['WLAN', 'Kostenlos'], ['Parkplatz', 'Vor Ort'], ['Zugang', 'Barrierefrei']]],
+      ['03', 'Getränke und Desserts', 'Aperitifs, Biere, Weine, Cocktails und Mocktails. Hausgemachte Desserts.', [['Tee', 'Tulpenglas'], ['Desserts', 'Hausgemacht'], ['Cocktails', 'Barkarte']]]],
+    contactT: 'So finden', contactTi: 'Sie uns', hoursT: 'Öffnungszeiten', demo: 'Demo — zu bestätigen',
+    d1: 'Dienstag – Sonntag', d2: 'Montag', closed: 'Geschlossen', addrT: 'Adresse', map: 'Route', amT: 'Vor Ort', call: 'Anrufen',
+    am: ['Hintergrundmusik', 'Kostenloses WLAN', 'Klimaanlage', 'Parkplatz', 'Barrierefrei'], tel: 'Tel.',
+    cTitle: 'Élite Assistent', cDemo: 'Sofortige Antworten', cPlace: 'Ihre Frage…', cSend: 'Senden', cBtn: 'Assistent',
+    cGreet: 'Guten Tag. Ich beantworte Fragen zu Karte, Öffnungszeiten, Adresse und Reservierung.',
+    chips: ['Öffnungszeiten', 'Die Karte', 'Reservieren', 'Lieferung'],
+    aHours: 'Dienstag bis Sonntag, 11:30 – 14:30 und 18:00 – 23:00. Montag geschlossen.',
+    aMenu: 'Vorspeisen, Teller, Sandwiches, Burger, Pizza, Flammkuchen, Pide und hausgemachte Desserts. Die ganze Karte finden Sie im Reiter Karte.',
+    aAddr: '119 route de Colmar, 68040 Ingersheim. Parkplatz vor Ort und schwellenloser Zugang.',
+    aReserve: 'Reservierungen telefonisch unter +33 9 52 87 54 93.',
+    aDelivery: 'Im Haus, zum Mitnehmen und mit Lieferung. Für eine Bestellung: +33 9 52 87 54 93.',
+    aVeg: 'Vegetarischer Teller, vegetarisches Sandwich, Salate, Cacik, Aubergine, Pizza ohne Fleisch und Flammkuchen mit Käse.',
+    aPrice: 'Die Preise stehen im Reiter Karte, übernommen von der ausgehängten Karte.',
+    aFallback: 'Ich kann nur zu Karte, Öffnungszeiten, Adresse, Lieferung und Reservierung helfen. Sonst bitte +33 9 52 87 54 93 anrufen.' },
+
+  es: { nav: ['Inicio', 'Carta', 'El restaurante', 'Contacto'],
+    kick: 'Cocina turca · Ingersheim · Desde 2024', h1a: 'Élite', h1b: 'Restaurant',
+    tag: 'Döner, kebab, lahmacun, pide y pizzas. En sala, para llevar y a domicilio.',
+    reserve: 'Reservar', cue: 'Desliza', meta2: 'En sala · Para llevar · A domicilio',
+    trioL: 'Las especialidades', seeMenu: 'Ver la carta',
+    trio: [['01', 'Döner y kebab', 'Döner de pollo o de ternera, en plato, en bocadillo, en yufka o en tacos.'],
+      ['02', 'Lahmacun y pide', 'Masas finas horneadas al momento: lahmacun, pide con queso, sucuk o döner.'],
+      ['03', 'Pizzas y tartas flambeadas', 'Base de tomate o de crema, tartas flambeadas de la clásica a la de queso de cabra y miel.']],
+    menuT: 'La carta', menuNote: 'Precios tomados de la carta expuesta en el restaurante. Sujetos a cambios.',
+    cat: ['Entrantes', 'Platos', 'Bocadillos', 'Hamburguesas', 'Menús', 'Guarniciones', 'Pizzas con tomate', 'Pizzas con crema', 'Tartas flambeadas', 'Pide', 'Bebidas', 'Postres'],
+    noteAssiettes: 'Ensalada + patatas o bulgur', noteBurgers: 'Con patatas crujientes', noteMenus: 'Tacos a elegir: kebab, escalope, merguez, vegetariano, carne picada', noteDesserts: 'Caseros', noteEmpty: '',
+    placeT: 'El restaurante',
+    place: [['01', 'El servicio', 'Servicio en sala, venta para llevar y reparto. Catering y eventos a petición.', [['Sala', 'Climatizada'], ['Para llevar', 'Por encargo'], ['Catering y eventos', 'Presupuesto']]],
+      ['02', 'La sala', 'Sala climatizada, música de fondo, aparcamiento y acceso sin escalones.', [['Wi-Fi', 'Gratis'], ['Aparcamiento', 'En el local'], ['Acceso', 'Adaptado']]],
+      ['03', 'Bebidas y postres', 'Aperitivos, cervezas, vinos, cócteles y mocktails. Postres caseros.', [['Té', 'Vaso tulipán'], ['Postres', 'Caseros'], ['Cócteles', 'Carta del bar']]]],
+    contactT: 'Cómo', contactTi: 'llegar', hoursT: 'Horario', demo: 'Demo — por confirmar',
+    d1: 'Martes – Domingo', d2: 'Lunes', closed: 'Cerrado', addrT: 'Dirección', map: 'Ruta', amT: 'En el local', call: 'Llamar',
+    am: ['Música de fondo', 'Wi-Fi gratis', 'Aire acondicionado', 'Aparcamiento', 'Acceso adaptado'], tel: 'Tel.',
+    cTitle: 'Asistente Élite', cDemo: 'Respuestas inmediatas', cPlace: 'Su pregunta…', cSend: 'Enviar', cBtn: 'Asistente',
+    cGreet: 'Hola. Respondo sobre la carta, el horario, la dirección y las reservas.',
+    chips: ['Horario', 'La carta', 'Reservar', 'Reparto'],
+    aHours: 'De martes a domingo, 11:30 – 14:30 y 18:00 – 23:00. Lunes cerrado.',
+    aMenu: 'Entrantes, platos, bocadillos, hamburguesas, pizzas, tartas flambeadas, pide y postres caseros. La carta completa está en la pestaña Carta.',
+    aAddr: '119 route de Colmar, 68040 Ingersheim. Aparcamiento en el local y acceso sin escalones.',
+    aReserve: 'Las reservas se hacen por teléfono al +33 9 52 87 54 93.',
+    aDelivery: 'En sala, para llevar y a domicilio. Para pedir, llame al +33 9 52 87 54 93.',
+    aVeg: 'Plato vegetariano, bocadillo vegetariano, ensaladas, cacik, berenjena, pizzas sin carne y tartas flambeadas de queso.',
+    aPrice: 'Los precios están en la pestaña Carta, tomados de la carta expuesta en el restaurante.',
+    aFallback: 'Solo puedo ayudar con la carta, el horario, la dirección, el reparto y las reservas. Para lo demás, llame al +33 9 52 87 54 93.' },
+
+  it: { nav: ['Home', 'Menù', 'Il ristorante', 'Contatti'],
+    kick: 'Cucina turca · Ingersheim · Dal 2024', h1a: 'Élite', h1b: 'Restaurant',
+    tag: 'Döner, kebab, lahmacun, pide e pizze. In sala, da asporto e con consegna.',
+    reserve: 'Prenotare', cue: 'Scorri', meta2: 'In sala · Asporto · Consegna',
+    trioL: 'Le specialità', seeMenu: 'Vedi il menù',
+    trio: [['01', 'Döner e kebab', 'Döner di pollo o di manzo, nel piatto, nel panino, nella yufka o nei tacos.'],
+      ['02', 'Lahmacun e pide', 'Impasti sottili cotti al momento: lahmacun, pide al formaggio, al sucuk o al döner.'],
+      ['03', 'Pizze e tarte flambée', 'Base pomodoro o panna acida, tarte flambée dalla classica a capra e miele.']],
+    menuT: 'Il menù', menuNote: 'Prezzi rilevati dal menù esposto nel ristorante. Soggetti a variazione.',
+    cat: ['Antipasti', 'Piatti', 'Panini', 'Burger', 'Menù', 'Contorni', 'Pizze base pomodoro', 'Pizze base panna', 'Tarte flambée', 'Pide', 'Bevande', 'Dolci'],
+    noteAssiettes: 'Insalata + patatine o bulgur', noteBurgers: 'Serviti con patatine croccanti', noteMenus: 'Tacos a scelta: kebab, escalope, merguez, vegetariano, carne macinata', noteDesserts: 'Fatti in casa', noteEmpty: '',
+    placeT: 'Il ristorante',
+    place: [['01', 'Il servizio', 'Servizio in sala, asporto e consegna. Catering ed eventi su richiesta.', [['Sala', 'Climatizzata'], ['Asporto', 'Su ordinazione'], ['Catering ed eventi', 'Su preventivo']]],
+      ['02', 'La sala', 'Sala climatizzata, musica di sottofondo, parcheggio e accesso senza gradini.', [['Wi-Fi', 'Gratuito'], ['Parcheggio', 'Sul posto'], ['Accesso', 'Disabili']]],
+      ['03', 'Bevande e dolci', 'Aperitivi, birre, vini, cocktail e mocktail. Dolci fatti in casa.', [['Tè', 'Bicchiere tulipano'], ['Dolci', 'Fatti in casa'], ['Cocktail', 'Carta del bar']]]],
+    contactT: 'Dove', contactTi: 'siamo', hoursT: 'Orari', demo: 'Demo — da confermare',
+    d1: 'Martedì – Domenica', d2: 'Lunedì', closed: 'Chiuso', addrT: 'Indirizzo', map: 'Itinerario', amT: 'Sul posto', call: 'Chiamare',
+    am: ['Musica di sottofondo', 'Wi-Fi gratuito', 'Aria condizionata', 'Parcheggio', 'Accesso disabili'], tel: 'Tel.',
+    cTitle: 'Assistente Élite', cDemo: 'Risposte immediate', cPlace: 'La tua domanda…', cSend: 'Invia', cBtn: 'Assistente',
+    cGreet: 'Buongiorno. Rispondo su menù, orari, indirizzo e prenotazioni.',
+    chips: ['Orari', 'Il menù', 'Prenotare', 'Consegna'],
+    aHours: 'Da martedì a domenica, 11:30 – 14:30 e 18:00 – 23:00. Lunedì chiuso.',
+    aMenu: 'Antipasti, piatti, panini, burger, pizze, tarte flambée, pide e dolci fatti in casa. Il menù completo è nella scheda Menù.',
+    aAddr: '119 route de Colmar, 68040 Ingersheim. Parcheggio sul posto e accesso senza gradini.',
+    aReserve: 'Le prenotazioni si fanno per telefono al +33 9 52 87 54 93. Questa demo non invia nulla al ristorante.',
+    aDelivery: 'In sala, da asporto e con consegna. Per ordinare, chiamare +33 9 52 87 54 93.',
+    aVeg: 'Piatto vegetariano, panino vegetariano, insalate, cacik, melanzana, pizze senza carne e tarte flambée al formaggio.',
+    aPrice: 'I prezzi sono nella scheda Menù, rilevati dal menù esposto nel ristorante.',
+    aFallback: 'Posso aiutare solo su menù, orari, indirizzo, consegna e prenotazioni. Per il resto, chiamare +33 9 52 87 54 93.' },
+
+  zh: { nav: ['首页', '菜单', '餐厅', '联系'],
+    kick: '土耳其料理 · 因格斯海姆 · 2024年开业', h1a: 'Élite', h1b: 'Restaurant',
+    tag: '旋转烤肉、烤肉卷、拉赫马朱、皮德饼与披萨。堂食、外带、外送。',
+    reserve: '订座', cue: '向下滚动', meta2: '堂食 · 外带 · 外送',
+    trioL: '招牌菜', seeMenu: '查看菜单',
+    trio: [['01', '旋转烤肉与烤肉卷', '鸡肉或牛肉旋转烤肉，可做拼盘、三明治、优夫卡卷或塔可。'],
+      ['02', '拉赫马朱与皮德饼', '现点现烤的薄饼：拉赫马朱、芝士、土耳其香肠或烤肉皮德饼。'],
+      ['03', '披萨与火焰薄饼', '番茄底或鲜奶油底，火焰薄饼从原味到山羊奶酪蜂蜜口味。']],
+    menuT: '菜单', menuNote: '价格取自餐厅内张贴的菜单，可能有所变动。',
+    cat: ['前菜', '拼盘', '三明治', '汉堡', '套餐', '配菜', '番茄底披萨', '奶油底披萨', '火焰薄饼', '皮德饼', '饮品', '甜点'],
+    noteAssiettes: '沙拉 + 薯条或布格麦', noteBurgers: '配香脆薯条', noteMenus: '塔可可选：烤肉、鸡排、梅尔盖兹香肠、素食、肉末', noteDesserts: '自制', noteEmpty: '',
+    placeT: '餐厅',
+    place: [['01', '服务', '堂食服务、外带与外送。可按需提供宴席与活动餐饮。', [['餐厅', '空调'], ['外带', '接受预订'], ['宴席与活动', '按报价']]],
+      ['02', '用餐环境', '空调餐厅、背景音乐、停车位与无台阶通道。', [['Wi-Fi', '免费'], ['停车', '现场'], ['无障碍', '有']]],
+      ['03', '饮品与甜点', '开胃酒、啤酒、葡萄酒、鸡尾酒与无酒精鸡尾酒。自制甜点。', [['茶', '郁金香杯'], ['甜点', '自制'], ['鸡尾酒', '吧台酒单']]]],
+    contactT: '联系', contactTi: '我们', hoursT: '营业时间', demo: '演示 — 待确认',
+    d1: '周二至周日', d2: '周一', closed: '休息', addrT: '地址', map: '路线', amT: '店内设施', call: '致电',
+    am: ['背景音乐', '免费 Wi-Fi', '空调', '停车位', '无障碍通道'], tel: '电话',
+    cTitle: 'Élite 助手', cDemo: '即时回答', cPlace: '请输入问题…', cSend: '发送', cBtn: '助手',
+    cGreet: '您好。我可以回答菜单、营业时间、地址和订座方面的问题。',
+    chips: ['营业时间', '菜单', '订座', '外送'],
+    aHours: '周二至周日 11:30 – 14:30 及 18:00 – 23:00，周一休息。咨询电话 +33 9 52 87 54 93。',
+    aMenu: '前菜、拼盘、三明治、汉堡、披萨、火焰薄饼、皮德饼和自制甜点。完整菜单请见「菜单」页。',
+    aAddr: '119 route de Colmar, 68040 Ingersheim。现场有停车位，无台阶通道。',
+    aReserve: '订座请致电 +33 9 52 87 54 93。本演示不会向餐厅发送任何信息。',
+    aDelivery: '提供堂食、外带与外送。订餐请致电 +33 9 52 87 54 93。',
+    aVeg: '素食拼盘、素食三明治、各式沙拉、酸奶黄瓜、茄子、无肉披萨和芝士火焰薄饼。',
+    aPrice: '价格见「菜单」页，取自餐厅内张贴的菜单。',
+    aFallback: '我只能回答菜单、营业时间、地址、外送和订座的问题。其他事宜请致电 +33 9 52 87 54 93。' },
+
+  ja: { nav: ['ホーム', 'メニュー', 'レストラン', 'お問い合わせ'],
+    kick: 'トルコ料理 · アンジェルスハイム · 2024年より', h1a: 'Élite', h1b: 'Restaurant',
+    tag: 'ドネル、ケバブ、ラフマジュン、ピデ、ピザ。店内・テイクアウト・配達。',
+    reserve: '予約する', cue: 'スクロール', meta2: '店内 · テイクアウト · 配達',
+    trioL: '看板料理', seeMenu: 'メニューを見る',
+    trio: [['01', 'ドネルとケバブ', 'チキンまたはビーフのドネル。プレート、サンドイッチ、ユフカ、タコスで。'],
+      ['02', 'ラフマジュンとピデ', '注文を受けてから焼く薄い生地。チーズ、スジュク、ドネルのピデ。'],
+      ['03', 'ピザとタルト・フランベ', 'トマトまたはサワークリームのベース。プレーンから山羊チーズと蜂蜜まで。']],
+    menuT: 'メニュー', menuNote: '価格は店内掲示のメニューより。変更の可能性があります。',
+    cat: ['前菜', 'プレート', 'サンドイッチ', 'バーガー', 'セット', 'サイド', 'トマトベースのピザ', 'クリームベースのピザ', 'タルト・フランベ', 'ピデ', 'ドリンク', 'デザート'],
+    noteAssiettes: 'サラダ + フライドポテトまたはブルグル', noteBurgers: 'クリスピーポテト付き', noteMenus: 'タコスの選択：ケバブ、エスカロープ、メルゲーズ、ベジタリアン、挽き肉', noteDesserts: '自家製', noteEmpty: '',
+    placeT: 'レストラン',
+    place: [['01', 'サービス', '店内サービス、テイクアウト、配達。ケータリングとイベントはご相談ください。', [['客席', '空調あり'], ['テイクアウト', '注文制'], ['ケータリング・イベント', '見積制']]],
+      ['02', '客席', '空調の効いた客席、BGM、駐車場、段差のない入口。', [['Wi-Fi', '無料'], ['駐車場', '併設'], ['アクセス', 'バリアフリー']]],
+      ['03', 'ドリンクとデザート', 'アペリティフ、ビール、ワイン、カクテル、モクテル。自家製デザート。', [['紅茶', 'チューリップグラス'], ['デザート', '自家製'], ['カクテル', 'バーメニュー']]]],
+    contactT: 'アクセス', contactTi: '情報', hoursT: '営業時間', demo: 'デモ — 確認待ち',
+    d1: '火曜 – 日曜', d2: '月曜', closed: '定休日', addrT: '住所', map: '経路', amT: '店内設備', call: '電話する',
+    am: ['BGM', '無料 Wi-Fi', '空調', '駐車場', 'バリアフリー'], tel: '電話',
+    cTitle: 'Élite アシスタント', cDemo: '即時回答', cPlace: 'ご質問をどうぞ…', cSend: '送信', cBtn: 'アシスタント',
+    cGreet: 'こんにちは。メニュー、営業時間、住所、予約についてお答えします。',
+    chips: ['営業時間', 'メニュー', '予約', '配達'],
+    aHours: '火曜から日曜、11:30 – 14:30 と 18:00 – 23:00。月曜定休。お問い合わせは +33 9 52 87 54 93 まで。',
+    aMenu: '前菜、プレート、サンドイッチ、バーガー、ピザ、タルト・フランベ、ピデ、自家製デザート。全メニューは「メニュー」タブにあります。',
+    aAddr: '119 route de Colmar, 68040 Ingersheim。駐車場併設、段差のない入口です。',
+    aReserve: 'ご予約はお電話で +33 9 52 87 54 93 まで。このデモから店舗へは何も送信されません。',
+    aDelivery: '店内、テイクアウト、配達に対応しています。ご注文は +33 9 52 87 54 93 まで。',
+    aVeg: 'ベジタリアンプレート、ベジタリアンサンド、サラダ、ジャジク、ナス、肉なしピザ、チーズのタルト・フランベ。',
+    aPrice: '価格は「メニュー」タブに掲載、店内掲示のメニューより転記しています。',
+    aFallback: 'お答えできるのはメニュー、営業時間、住所、配達、予約のみです。その他は +33 9 52 87 54 93 までお電話ください。' }
+};
+
+const X = {
+  fr: { galL: 'La maison', boardL: 'La carte affichée au restaurant', revL: 'Avis', revU: 'avis Google', revNote: 'Note relevée en décembre 2025 sur Google.', revLink: 'Lire les avis', capFacade: '119 route de Colmar, Ingersheim', capDish: 'Ali Nazik', capDurum: 'Dürüm et frites', capBurger: 'Burger Élite' },
+  tr: { galL: 'Mekân', boardL: 'Restoranda asılı menü', revL: 'Yorumlar', revU: 'Google yorumu', revNote: 'Puan Aralık 2025\u2019te Google\u2019dan alınmıştır.', revLink: 'Yorumları oku', capFacade: '119 route de Colmar, Ingersheim', capDish: 'Ali Nazik', capDurum: 'Dürüm ve patates', capBurger: 'Burger Élite' },
+  en: { galL: 'The place', boardL: 'The menu board displayed in the restaurant', revL: 'Reviews', revU: 'Google reviews', revNote: 'Rating collected from Google in December 2025.', revLink: 'Read the reviews', capFacade: '119 route de Colmar, Ingersheim', capDish: 'Ali Nazik', capDurum: 'Dürüm and fries', capBurger: 'Burger Élite' },
+  de: { galL: 'Das Haus', boardL: 'Die im Restaurant ausgehängte Karte', revL: 'Bewertungen', revU: 'Google-Bewertungen', revNote: 'Bewertung im Dezember 2025 bei Google erhoben.', revLink: 'Bewertungen lesen', capFacade: '119 route de Colmar, Ingersheim', capDish: 'Ali Nazik', capDurum: 'Dürüm mit Pommes', capBurger: 'Burger Élite' },
+  es: { galL: 'La casa', boardL: 'La carta expuesta en el restaurante', revL: 'Opiniones', revU: 'opiniones de Google', revNote: 'Valoración recogida en Google en diciembre de 2025.', revLink: 'Leer las opiniones', capFacade: '119 route de Colmar, Ingersheim', capDish: 'Ali Nazik', capDurum: 'Dürüm con patatas', capBurger: 'Burger Élite' },
+  it: { galL: 'La casa', boardL: 'Il menù esposto nel ristorante', revL: 'Recensioni', revU: 'recensioni Google', revNote: 'Valutazione rilevata su Google a dicembre 2025.', revLink: 'Leggi le recensioni', capFacade: '119 route de Colmar, Ingersheim', capDish: 'Ali Nazik', capDurum: 'Dürüm e patatine', capBurger: 'Burger Élite' },
+  zh: { galL: '餐厅实景', boardL: '店内张贴的菜单', revL: '评价', revU: '条谷歌评价', revNote: '评分于 2025 年 12 月自谷歌采集。', revLink: '阅读评价', capFacade: '119 route de Colmar, Ingersheim', capDish: 'Ali Nazik', capDurum: '卷饼配薯条', capBurger: 'Burger Élite' },
+  ja: { galL: '店舗', boardL: '店内に掲示されたメニュー', revL: 'レビュー', revU: '件の Google レビュー', revNote: '評価は 2025 年 12 月に Google より取得。', revLink: 'レビューを読む', capFacade: '119 route de Colmar, Ingersheim', capDish: 'Ali Nazik', capDurum: 'デュリュムとフライドポテト', capBurger: 'Burger Élite' }
+};
+
+const DISH_NAMES = ['Döner', 'Lahmacun', 'Pide', 'İskender', 'Ali Nazik', 'Karnıyarık', 'Cacık', 'Icli Köfte', 'Tarte flambée'];
+const DISH_TEXT = {
+  fr: ['Viande marinée, poulet ou bœuf, grillée sur broche verticale et tranchée à la commande. En assiette, en sandwich, en yufka ou en tacos.',
+    'Fine galette de pâte garnie de viande hachée épicée, cuite au four. Se mange roulée, avec un filet de citron.',
+    'Pain plat turc en barquette, garni de fromage et épinards, de sucuk, de viande hachée, d\u2019escalope ou de döner.',
+    'Döner tranché sur lit de pain, nappé de sauce tomate et de yaourt.',
+    'Purée d\u2019aubergine fumée au yaourt, recouverte de viande.',
+    'Aubergine fendue et farcie de viande hachée.',
+    'Yaourt battu au concombre et à la menthe, servi frais en entrée.',
+    'Croquette de boulgour farcie de viande hachée et d\u2019oignons.',
+    'La spécialité alsacienne à la carte : crème, lardons et oignons, jusqu\u2019aux versions chèvre-miel ou kebab.'],
+  en: ['Marinated chicken or beef, grilled on a vertical spit and sliced to order. As a plate, in a sandwich, in yufka or in tacos.',
+    'Thin dough topped with spiced minced meat and oven-baked. Eaten rolled, with a squeeze of lemon.',
+    'Turkish flatbread boat, filled with cheese and spinach, sucuk, minced meat, escalope or döner.',
+    'Sliced döner over bread, covered with tomato sauce and yoghurt.',
+    'Smoked aubergine purée with yoghurt, topped with meat.',
+    'Aubergine split and stuffed with minced meat.',
+    'Whipped yoghurt with cucumber and mint, served cold as a starter.',
+    'Bulgur croquette stuffed with minced meat and onions.',
+    'The Alsatian speciality on the menu: cream, bacon and onions, through to goat cheese and honey or kebab versions.'],
+  de: ['Mariniertes Hähnchen- oder Rindfleisch, am senkrechten Spieß gegrillt und frisch geschnitten. Als Teller, im Sandwich, im Yufka oder im Tacos.',
+    'Dünner Teig mit gewürztem Hackfleisch, im Ofen gebacken. Wird gerollt gegessen, mit einem Spritzer Zitrone.',
+    'Türkisches Fladenbrot in Bootform, belegt mit Käse und Spinat, Sucuk, Hackfleisch, Escalope oder Döner.',
+    'Geschnittener Döner auf Brot, mit Tomatensauce und Joghurt überzogen.',
+    'Püree aus geräucherter Aubergine mit Joghurt, mit Fleisch bedeckt.',
+    'Aufgeschnittene Aubergine, gefüllt mit Hackfleisch.',
+    'Aufgeschlagener Joghurt mit Gurke und Minze, kalt als Vorspeise.',
+    'Bulgur-Krokette, gefüllt mit Hackfleisch und Zwiebeln.',
+    'Die elsässische Spezialität auf der Karte: Crème, Speck und Zwiebeln, bis zu Ziegenkäse-Honig oder Kebab.']
+};
+const ZONES = ['Colmar', 'Ingersheim', 'Wintzenheim', 'Turckheim', 'Horbourg-Wihr', 'Houssen', 'Wettolsheim', 'Niedermorschwihr', 'Logelbach'];
+
+const S = {
+  fr: { colmarNav: 'Colmar',
+    waMsg: 'Bonjour, je souhaite réserver une table chez Élite.',
+    manifL: 'La maison', manifT: 'Ce qu’on sert,', manifTi: 'et comment',
+    manifP1: 'Deux cuisines tiennent la même carte. La turque d’abord : la broche de döner qui tourne devant les braises et se tranche à la commande, les galettes enfournées une par une — lahmacun, pide — et les grillades, brochettes et köfte, servies en assiette avec salade et frites ou blé.',
+    manifP2: 'L’alsacienne ensuite, parce qu’on est à Ingersheim : tartes flambées sur pâte fine, de la nature aux lardons et oignons jusqu’à la chèvre miel. À côté, les pizzas, les burgers et les tacos, préparés dans la même cuisine et au même moment.',
+    manifP3: 'Le service se fait en salle, à emporter et en livraison, avec le traiteur et les événements sur devis. La salle est climatisée, le Wi-Fi est gratuit, le parking est sur place et l’accès de plain-pied. Les commandes et les réservations passent par le téléphone.',
+    manifQ: 'Une même viande se retrouve en assiette, en sandwich, roulée en yufka ou en tacos : c’est ce qui explique la longueur de la carte.',
+    menuLead1: 'La carte se lit en deux temps. D’un côté la cuisine turque : la broche de döner, les galettes au four — lahmacun et pide — et les assiettes de grillades. De l’autre les pizzas, les tartes flambées et les burgers, préparés dans la même cuisine.',
+    menuLead2: 'Chaque viande existe sous plusieurs formes, et c’est ce qui explique la longueur de la carte. Les assiettes arrivent avec salade et frites ou blé au choix ; les sandwichs se prennent seuls ou en menu, avec frites et boisson.',
+    howL: 'Commander, en trois temps',
+    how: [['01', 'La forme', 'Assiette avec salade et accompagnement, sandwich seul ou en menu, ou galette : lahmacun, pide, pizza, tarte flambée.'],
+      ['02', 'La garniture', 'Döner poulet ou bœuf, köfte, escalope, merguez, viande hachée — ou la version végétarienne, en assiette comme en sandwich.'],
+      ['03', 'Sur place ou emporté', 'Service en salle, vente à emporter et livraison. Commandes et réservations au 09 52 87 54 93. Traiteur et événements sur devis.']],
+    lexL: 'Lexique', lexNote: 'Les noms turcs de la carte, expliqués — de quoi commander sans hésiter la première fois.',
+    lex: [['Döner', 'Viande marinée empilée sur une broche verticale, grillée puis tranchée à la commande.'],
+      ['Dürüm', 'Le döner roulé dans une galette de yufka, en sandwich.'],
+      ['Yufka', 'Galette de blé très fine qui sert à rouler la viande et la garniture.'],
+      ['Lahmacun', 'Fine galette de pâte garnie de viande hachée épicée, cuite au four. Se mange roulée, avec du citron.'],
+      ['Pide', 'Pâte en forme de barquette, garnie de fromage, de sucuk ou de döner, puis enfournée.'],
+      ['İskender', 'Lamelles de döner posées sur des morceaux de pain, sauce tomate et yaourt.'],
+      ['Ali Nazik', 'Aubergine grillée et écrasée, mêlée de yaourt, surmontée de viande.'],
+      ['Karnıyarık', 'Aubergine fendue et farcie de viande hachée, cuite au four.'],
+      ['Köfte', 'Boulettes de viande hachée assaisonnée, façonnées à la main et grillées.'],
+      ['İçli köfte', 'Croquette de boulgour farcie de viande hachée, frite. Deux pièces par portion.'],
+      ['Sucuk', 'Saucisse de bœuf séchée et épicée, servie sur le pide ou la pizza.'],
+      ['Cacık', 'Yaourt battu au concombre, à l’ail et à la menthe, servi frais en entrée.'],
+      ['Mezzé', 'Petits plats d’entrée que l’on partage au centre de la table.'],
+      ['Boulgour', 'Blé concassé, proposé en accompagnement à la place des frites.'],
+      ['Çay', 'Thé noir turc, servi dans un verre tulipe.'],
+      ['Tarte flambée', 'La spécialité alsacienne de la carte : pâte fine, crème, lardons et oignons.']],
+    practL: 'Informations pratiques',
+    pract: [['Y venir', '119 route de Colmar, 68040 Ingersheim, commune limitrophe de Colmar. Parking sur place et accès de plain-pied jusqu’à la salle.'],
+      ['La salle', 'Salle climatisée, musique d’ambiance en fond, Wi-Fi gratuit. Accès PMR.'],
+      ['Réserver', 'Les réservations se prennent par téléphone au 09 52 87 54 93, aux heures d’ouverture.'],
+      ['Groupes et événements', 'Traiteur et événements sur devis. Capacité de la salle et conditions pour les grandes tables sur demande.'],
+      ['Emporter et livrer', 'Vente à emporter et livraison, commandes par téléphone. Zone et délais de livraison communiqués à la commande.'],
+      ['Paiement et allergènes', 'Moyens de paiement et informations sur les allergènes : renseignez-vous auprès du restaurant.']],
+    seoT: 'Restaurant turc à Ingersheim,', seoTi: 'aux portes de Colmar',
+    seoP1: 'Élite est installé au 119 route de Colmar, à Ingersheim, commune limitrophe de Colmar. La carte tient sur deux registres : la cuisine turque — döner, kebab, lahmacun, pide, iskender, ali nazik, köfte — et les classiques du coin, pizzas et tartes flambées, jusqu\u2019aux burgers et tacos.',
+    seoP2: 'Le service se fait en salle, à emporter et en livraison. Traiteur et événements sur devis. Salle climatisée, Wi-Fi gratuit, parking sur place et accès de plain-pied.',
+    dishL: 'Les spécialités, expliquées', zoneL: 'À emporter et en livraison autour de Colmar',
+    zoneNote: 'Commandes par téléphone. La zone de livraison exacte vous est confirmée à la commande.',
+    storyL: 'La maison', storyT: 'Deux cuisines,', storyTi: 'une même table',
+    storyLead: 'Élite a ouvert au 119 route de Colmar en octobre 2024, à Ingersheim, là où la ville s\u2019arrête et où commence la route des vignes.',
+    storyP2: 'La carte tient deux cuisines. Celle de Turquie d\u2019abord : la broche qui tourne devant les braises et se tranche à la commande, le lahmacun étalé puis enfourné, le pide en barquette, l\u2019iskender nappé de yaourt, le thé servi en verre tulipe. Celle d\u2019ici ensuite : tartes flambées, pizzas, ce qu\u2019on commande un soir de semaine sans y penser.',
+    storyQuote: 'On vient en famille, on repart avec un dürüm dans son papier.',
+    storyP3: 'Le soir, la salle s\u2019éclaire et la musique passe en fond. Le service tient les trois registres — en salle, à emporter, en livraison — et le traiteur pour les grandes tables.',
+    marksL: 'Repères',
+    marks: [['4 octobre 2024', 'Création de la SARL Restaurant Elite.'], ['119 route de Colmar', 'Ingersheim, commune limitrophe de Colmar.'], ['4,6 / 5', '132 avis Google, relevés en décembre 2025.']],
+    storyNote: '',
+    faqL: 'Questions fréquentes',
+    faq: [['Où se trouve le Restaurant Élite ?', '119 route de Colmar, 68040 Ingersheim, commune limitrophe de Colmar. Parking sur place et accès de plain-pied.'],
+      ['Quels sont les horaires d\u2019ouverture ?', 'Du mardi au dimanche, 11:30 – 14:30 et 18:00 – 23:00. Fermé le lundi. Renseignements au 09 52 87 54 93.'],
+      ['Proposez-vous la vente à emporter et la livraison ?', 'Service en salle, vente à emporter et livraison. Les commandes se prennent par téléphone.'],
+      ['Y a-t-il des plats végétariens ?', 'Assiette et sandwich végétariens, salades, cacik, aubergine, pizzas sans viande et tartes flambées au fromage.'],
+      ['Peut-on réserver une table ou commander un traiteur ?', 'Les réservations se font par téléphone. Le traiteur et les événements sont proposés sur devis.'],
+      ['Y a-t-il des plats végétariens ?', 'Oui : assiette végétarienne, sandwich végétarien, salades, cacık, aubergine, pizzas sans viande et tartes flambées au fromage.'],
+      ['Proposez-vous un menu enfant ?', 'Oui : hamburger ou nuggets, frites, Capri-Sun et un bonbon, à 7 €.'],
+      ['Servez-vous de l’alcool ?', 'La carte comprend des apéritifs, des bières, des vins rouge et rosé, ainsi que des cocktails et des mocktails.'],
+      ['Le restaurant est-il accessible en fauteuil roulant ?', 'L’accès se fait de plain-pied et le parking est sur place. Pour toute question sur l’accès, appelez le restaurant.'],
+      ['Quels moyens de paiement acceptez-vous ?', 'Renseignez-vous directement auprès du restaurant.'],
+      ['Comment connaître les allergènes d’un plat ?', 'Les informations sur les allergènes sont disponibles au restaurant. Demandez-les lors de la commande.']] },
+  en: { colmarNav: 'Colmar',
+    waMsg: 'Hello, I would like to book a table at Élite.',
+    manifL: 'The house', manifT: 'What we serve,', manifTi: 'and how',
+    manifP1: 'Two kitchens share one menu. Turkish first: the döner spit turning in front of the embers and sliced to order, flatbreads baked one at a time — lahmacun, pide — and the grills, skewers and köfte served as plates with salad and fries or bulgur.',
+    manifP2: 'Alsatian next, because this is Ingersheim: tartes flambées on thin dough, from plain with bacon and onions through to goat cheese and honey. Alongside them, pizzas, burgers and tacos, made in the same kitchen at the same time.',
+    manifP3: 'Service runs in the dining room, as takeaway and as delivery, with catering and events on quote. The room is air-conditioned, Wi-Fi is free, parking is on site and access is step-free. Orders and bookings go through the phone.',
+    manifQ: 'The same meat comes as a plate, in a sandwich, rolled in yufka or in tacos — which is why the menu runs so long.',
+    menuLead1: 'The menu reads in two parts. On one side Turkish cooking: the döner spit, the oven flatbreads — lahmacun and pide — and the grilled plates. On the other, pizzas, tartes flambées and burgers, made in the same kitchen.',
+    menuLead2: 'Each meat comes in several forms, which is why the menu runs long. Plates arrive with salad and a choice of fries or bulgur; sandwiches come on their own or as a meal, with fries and a drink.',
+    howL: 'Ordering, in three steps',
+    how: [['01', 'The form', 'A plate with salad and a side, a sandwich on its own or as a meal, or a flatbread: lahmacun, pide, pizza, tarte flambée.'],
+      ['02', 'The filling', 'Chicken or beef döner, köfte, escalope, merguez, minced meat — or the vegetarian version, as a plate or a sandwich.'],
+      ['03', 'Here or to go', 'Table service, takeaway and delivery. Orders and bookings on +33 9 52 87 54 93. Catering and events on quote.']],
+    lexL: 'Glossary', lexNote: 'The Turkish names on the board, explained — enough to order without hesitating the first time.',
+    lex: [['Döner', 'Marinated meat stacked on a vertical spit, grilled and then sliced to order.'],
+      ['Dürüm', 'Döner rolled inside a yufka flatbread, as a sandwich.'],
+      ['Yufka', 'A very thin wheat flatbread used to roll meat and filling.'],
+      ['Lahmacun', 'Thin dough topped with spiced minced meat and baked. Eaten rolled, with lemon.'],
+      ['Pide', 'Boat-shaped dough filled with cheese, sucuk or döner, then baked.'],
+      ['İskender', 'Strips of döner laid over pieces of bread, with tomato sauce and yoghurt.'],
+      ['Ali Nazik', 'Grilled and crushed aubergine mixed with yoghurt, topped with meat.'],
+      ['Karnıyarık', 'Aubergine split and stuffed with minced meat, baked.'],
+      ['Köfte', 'Hand-shaped patties of seasoned minced meat, grilled.'],
+      ['İçli köfte', 'Bulgur croquette stuffed with minced meat and fried. Two pieces per portion.'],
+      ['Sucuk', 'Dried, spiced beef sausage, served on pide or pizza.'],
+      ['Cacık', 'Whipped yoghurt with cucumber, garlic and mint, served cold as a starter.'],
+      ['Mezze', 'Small starter dishes shared in the middle of the table.'],
+      ['Bulgur', 'Cracked wheat, offered as a side instead of fries.'],
+      ['Çay', 'Turkish black tea, served in a tulip glass.'],
+      ['Tarte flambée', 'The Alsatian speciality on the menu: thin dough, cream, bacon and onions.']],
+    practL: 'Practical information',
+    pract: [['Getting here', '119 route de Colmar, 68040 Ingersheim, the commune bordering Colmar. Parking on site and step-free access to the dining room.'],
+      ['The room', 'Air-conditioned room, ambient music, free Wi-Fi. Wheelchair access.'],
+      ['Booking', 'Bookings are taken by phone on +33 9 52 87 54 93, during opening hours.'],
+      ['Groups and events', 'Catering and events on quote. Room capacity and terms for large tables on request.'],
+      ['Takeaway and delivery', 'Takeaway and delivery, orders by phone. Delivery area and times given when ordering.'],
+      ['Payment and allergens', 'Payment methods and allergen information: please ask the restaurant.']],
+    seoT: 'Turkish restaurant in Ingersheim,', seoTi: 'on the edge of Colmar',
+    seoP1: 'Élite sits at 119 route de Colmar in Ingersheim, the commune bordering Colmar. The menu runs on two registers: Turkish cooking — döner, kebab, lahmacun, pide, iskender, ali nazik, köfte — and local staples, pizzas and tartes flambées, through to burgers and tacos.',
+    seoP2: 'Table service, takeaway and delivery. Catering and events on quote. Air-conditioned room, free Wi-Fi, parking on site and step-free access.',
+    dishL: 'The specialities, explained', zoneL: 'Takeaway and delivery around Colmar',
+    zoneNote: 'Orders by phone. The exact delivery area is confirmed when you order.',
+    storyL: 'The house', storyT: 'Two kitchens,', storyTi: 'one table',
+    storyLead: 'Élite opened at 119 route de Colmar in October 2024, in Ingersheim, where the town ends and the vineyard road begins.',
+    storyP2: 'The menu holds two kitchens. Turkey first: the spit turning in front of the embers, sliced to order; lahmacun rolled out and baked; pide in its boat; iskender under yoghurt; tea in a tulip glass. Then here: tartes flambées, pizzas, the things you order on a weeknight without thinking.',
+    storyQuote: 'Families come in, and leave with a dürüm wrapped in paper.',
+    storyP3: 'In the evening the room lights up and the music plays low. Service runs on three registers — dining in, takeaway, delivery — plus catering for the long tables.',
+    marksL: 'Markers',
+    marks: [['4 October 2024', 'Restaurant Elite registered as a SARL.'], ['119 route de Colmar', 'Ingersheim, the commune bordering Colmar.'], ['4.6 / 5', '132 Google reviews, collected December 2025.']],
+    storyNote: '',
+    faqL: 'Frequently asked questions',
+    faq: [['Where is Restaurant Élite?', '119 route de Colmar, 68040 Ingersheim, the commune bordering Colmar. Parking on site and step-free access.'],
+      ['What are the opening hours?', 'Tuesday to Sunday, 11:30 – 14:30 and 18:00 – 23:00. Closed Monday. Hours to be confirmed on +33 9 52 87 54 93.'],
+      ['Do you offer takeaway and delivery?', 'Table service, takeaway and delivery. Orders are taken by phone.'],
+      ['Are there vegetarian dishes?', 'Vegetarian plate and sandwich, salads, cacik, aubergine, meat-free pizzas and cheese tartes flambées.'],
+      ['Can I book a table or order catering?', 'Bookings are taken by phone. Catering and events are offered on quote.'],
+      ['Are there vegetarian dishes?', 'Yes: vegetarian plate, vegetarian sandwich, salads, cacık, aubergine, meat-free pizzas and cheese tartes flambées.'],
+      ['Is there a children’s menu?', 'Yes: hamburger or nuggets, fries, a Capri-Sun and a sweet, at €7.'],
+      ['Do you serve alcohol?', 'The menu includes aperitifs, beers, red and rosé wines, plus cocktails and mocktails.'],
+      ['Is the restaurant wheelchair accessible?', 'Access is step-free and parking is on site. For any access question, please call the restaurant.'],
+      ['Which payment methods do you accept?', 'Please ask the restaurant directly.'],
+      ['How can I check allergens in a dish?', 'Allergen information is available at the restaurant. Please ask when ordering.']] },
+  de: { colmarNav: 'Colmar',
+    waMsg: 'Guten Tag, ich möchte einen Tisch bei Élite reservieren.',
+    manifL: 'Das Haus', manifT: 'Was wir servieren,', manifTi: 'und wie',
+    manifP1: 'Zwei Küchen teilen eine Karte. Zuerst die türkische: der Dönerspieß, der vor der Glut dreht und frisch geschnitten wird, die einzeln gebackenen Teigfladen — Lahmacun, Pide — und die Grillgerichte, Spieße und Köfte, als Teller mit Salat und Pommes oder Bulgur.',
+    manifP2: 'Dann die elsässische, denn wir sind in Ingersheim: Flammkuchen auf dünnem Teig, von klassisch mit Speck und Zwiebeln bis Ziegenkäse-Honig. Daneben Pizzen, Burger und Tacos, aus derselben Küche und zur selben Zeit.',
+    manifP3: 'Serviert wird im Haus, zum Mitnehmen und mit Lieferung, Catering und Feiern auf Anfrage. Der Gastraum ist klimatisiert, das WLAN kostenlos, der Parkplatz vor Ort und der Zugang schwellenlos. Bestellungen und Reservierungen laufen über das Telefon.',
+    manifQ: 'Dasselbe Fleisch kommt als Teller, im Sandwich, in Yufka gerollt oder im Tacos — darum ist die Karte so lang.',
+    menuLead1: 'Die Karte liest sich in zwei Teilen. Auf der einen Seite die türkische Küche: der Dönerspieß, die Ofenfladen — Lahmacun und Pide — und die Grillteller. Auf der anderen Pizzen, Flammkuchen und Burger, aus derselben Küche.',
+    menuLead2: 'Jedes Fleisch gibt es in mehreren Formen, darum ist die Karte lang. Teller kommen mit Salat und Pommes oder Bulgur nach Wahl; Sandwiches gibt es einzeln oder als Menü, mit Pommes und Getränk.',
+    howL: 'Bestellen, in drei Schritten',
+    how: [['01', 'Die Form', 'Teller mit Salat und Beilage, Sandwich einzeln oder als Menü, oder Fladen: Lahmacun, Pide, Pizza, Flammkuchen.'],
+      ['02', 'Die Füllung', 'Döner vom Huhn oder Rind, Köfte, Escalope, Merguez, Hackfleisch — oder die vegetarische Variante, als Teller wie als Sandwich.'],
+      ['03', 'Hier oder zum Mitnehmen', 'Bedienung im Haus, Verkauf zum Mitnehmen und Lieferung. Bestellung und Reservierung unter +33 9 52 87 54 93. Catering und Feiern auf Anfrage.']],
+    lexL: 'Glossar', lexNote: 'Die türkischen Namen auf der Karte, erklärt — genug, um beim ersten Mal ohne Zögern zu bestellen.',
+    lex: [['Döner', 'Mariniertes Fleisch auf einem senkrechten Spieß, gegrillt und frisch geschnitten.'],
+      ['Dürüm', 'Döner, in einen Yufka-Fladen gerollt, als Sandwich.'],
+      ['Yufka', 'Sehr dünner Weizenfladen, in den Fleisch und Füllung gerollt werden.'],
+      ['Lahmacun', 'Dünner Teig mit gewürztem Hackfleisch, im Ofen gebacken. Wird gerollt und mit Zitrone gegessen.'],
+      ['Pide', 'Bootförmiger Teig, gefüllt mit Käse, Sucuk oder Döner, dann gebacken.'],
+      ['İskender', 'Dönerstreifen auf Brotstücken, mit Tomatensauce und Joghurt.'],
+      ['Ali Nazik', 'Gegrillte, zerdrückte Aubergine mit Joghurt, darauf Fleisch.'],
+      ['Karnıyarık', 'Aufgeschnittene, mit Hackfleisch gefüllte Aubergine, im Ofen gegart.'],
+      ['Köfte', 'Handgeformte Bällchen aus gewürztem Hackfleisch, gegrillt.'],
+      ['İçli köfte', 'Bulgur-Krokette, gefüllt mit Hackfleisch, frittiert. Zwei Stück pro Portion.'],
+      ['Sucuk', 'Getrocknete, gewürzte Rinderwurst, auf Pide oder Pizza serviert.'],
+      ['Cacık', 'Aufgeschlagener Joghurt mit Gurke, Knoblauch und Minze, kalt als Vorspeise.'],
+      ['Mezze', 'Kleine Vorspeisen, die in der Mitte des Tisches geteilt werden.'],
+      ['Bulgur', 'Weizengrütze, als Beilage anstelle von Pommes.'],
+      ['Çay', 'Türkischer schwarzer Tee, im Tulpenglas serviert.'],
+      ['Flammkuchen', 'Die elsässische Spezialität der Karte: dünner Teig, Crème, Speck und Zwiebeln.']],
+    practL: 'Praktische Informationen',
+    pract: [['Anfahrt', '119 route de Colmar, 68040 Ingersheim, Nachbargemeinde von Colmar. Parkplatz vor Ort und schwellenloser Zugang zum Gastraum.'],
+      ['Der Gastraum', 'Klimatisierter Raum, Hintergrundmusik, kostenloses WLAN. Barrierefreier Zugang.'],
+      ['Reservieren', 'Reservierungen telefonisch unter +33 9 52 87 54 93, während der Öffnungszeiten.'],
+      ['Gruppen und Feiern', 'Catering und Feiern auf Anfrage. Kapazität des Raums und Bedingungen für große Tische auf Anfrage.'],
+      ['Mitnehmen und Liefern', 'Verkauf zum Mitnehmen und Lieferung, Bestellungen telefonisch. Liefergebiet und Zeiten werden bei der Bestellung mitgeteilt.'],
+      ['Zahlung und Allergene', 'Zahlungsmittel und Angaben zu Allergenen: bitte im Restaurant erfragen.']],
+    seoT: 'Türkisches Restaurant in Ingersheim,', seoTi: 'direkt bei Colmar',
+    seoP1: 'Élite liegt in der 119 route de Colmar in Ingersheim, der Nachbargemeinde von Colmar. Die Karte führt zwei Register: die türkische Küche — Döner, Kebab, Lahmacun, Pide, Iskender, Ali Nazik, Köfte — und die hiesigen Klassiker, Pizza und Flammkuchen, bis zu Burgern und Tacos.',
+    seoP2: 'Bedienung im Haus, Verkauf zum Mitnehmen und Lieferung. Catering und Feiern auf Anfrage. Klimatisierter Gastraum, kostenloses WLAN, Parkplatz und schwellenloser Zugang.',
+    dishL: 'Die Spezialitäten, erklärt', zoneL: 'Mitnehmen und Lieferung rund um Colmar',
+    zoneNote: 'Bestellungen telefonisch. Das genaue Liefergebiet wird bei der Bestellung bestätigt.',
+    storyL: 'Das Haus', storyT: 'Zwei Küchen,', storyTi: 'ein Tisch',
+    storyLead: 'Élite eröffnete im Oktober 2024 in der 119 route de Colmar in Ingersheim, dort wo die Stadt endet und die Weinstraße beginnt.',
+    storyP2: 'Die Karte trägt zwei Küchen. Zuerst die türkische: der Spieß, der vor der Glut dreht und frisch geschnitten wird, das Lahmacun, ausgerollt und gebacken, das Pide in Bootform, der Iskender unter Joghurt, der Tee im Tulpenglas. Dann die hiesige: Flammkuchen, Pizza, das was man an einem Wochenabend bestellt.',
+    storyQuote: 'Man kommt als Familie und geht mit einem Dürüm im Papier.',
+    storyP3: 'Abends leuchtet der Gastraum, die Musik läuft leise. Der Service führt drei Register — im Haus, zum Mitnehmen, mit Lieferung — dazu Catering für die langen Tafeln.',
+    marksL: 'Eckdaten',
+    marks: [['4. Oktober 2024', 'Gründung der SARL Restaurant Elite.'], ['119 route de Colmar', 'Ingersheim, Nachbargemeinde von Colmar.'], ['4,6 / 5', '132 Google-Bewertungen, Stand Dezember 2025.']],
+    storyNote: '',
+    faqL: 'Häufige Fragen',
+    faq: [['Wo befindet sich das Restaurant Élite?', '119 route de Colmar, 68040 Ingersheim, Nachbargemeinde von Colmar. Parkplatz vor Ort und schwellenloser Zugang.'],
+      ['Wie sind die Öffnungszeiten?', 'Dienstag bis Sonntag, 11:30 – 14:30 und 18:00 – 23:00. Montag geschlossen. Auskunft unter +33 9 52 87 54 93.'],
+      ['Gibt es Mitnahme und Lieferung?', 'Bedienung im Haus, Verkauf zum Mitnehmen und Lieferung. Bestellungen telefonisch.'],
+      ['Gibt es vegetarische Gerichte?', 'Vegetarischer Teller und Sandwich, Salate, Cacik, Aubergine, Pizza ohne Fleisch und Flammkuchen mit Käse.'],
+      ['Kann man einen Tisch reservieren oder Catering bestellen?', 'Reservierungen telefonisch. Catering und Feiern auf Anfrage.']] }
+};
+
+const KW = {
+  hours: ['horaire', 'heure', 'ouvert', 'ferme', 'fermé', 'saat', 'acik', 'açık', 'kapali', 'hour', 'open', 'close', 'offnung', 'öffnung', 'geoffnet', 'geöffnet', 'horario', 'abierto', 'orari', 'aperto', '営業', '時間', '定休', '营业', '时间', '几点'],
+  menu: ['carte', 'menu', 'menü', 'menù', 'plat', 'manger', 'yemek', 'karte', 'speise', 'carta', 'piatt', 'dish', 'food', 'kebab', 'kebap', 'doner', 'döner', 'pizza', 'lahmacun', 'pide', 'tacos', 'burger', 'dessert', 'メニュー', '料理', '菜单', '菜', '吃'],
+  addr: ['adresse', 'adres', 'address', 'ou est', 'où', 'where', 'wo ', 'anschrift', 'direccion', 'dirección', 'donde', 'dónde', 'indirizzo', 'dove', 'parking', 'parken', 'aparcamiento', 'parcheggio', '住所', '場所', '地址', '在哪', '停车'],
+  reserve: ['reserv', 'réserv', 'rezerv', 'table', 'booking', 'book', 'tisch', 'prenot', 'mesa', 'tavolo', '予約', '席', '订座', '订位', '预订'],
+  delivery: ['livraison', 'livrer', 'emporter', 'commande', 'commander', 'paket', 'teslimat', 'eve', 'deliver', 'takeaway', 'take away', 'liefer', 'mitnehmen', 'domicilio', 'llevar', 'consegna', 'asporto', '配達', 'テイクアウト', '外送', '外带', '配送'],
+  veg: ['vegetar', 'végétar', 'vejetaryen', 'vegan', 'sans viande', 'meat free', 'vegetarisch', 'senza carne', 'sin carne', 'ベジタリアン', '素食', '素'],
+  price: ['prix', 'tarif', 'combien', 'fiyat', 'price', 'cost', 'how much', 'preis', 'kostet', 'precio', 'cuanto', 'cuánto', 'prezzo', 'quanto', '値段', '価格', 'いくら', '价格', '多少钱']
+};
+
+class Component extends DCLogic {
+  state = { lang: null, page: 'home', chatOpen: false, draft: '', msgs: null, langOpen: false, narrow: false, compact: false, navOpen: false };
+
+  componentDidMount() {
+    this.scroller = document.querySelector('[data-scene-track]');
+    this.syncLang();
+    this.watchWidth();
+    setTimeout(() => this.watchWidth(), 400);
+  }
+  // header modes live outside the component lifecycle: one document-level watcher, started once, survives remounts
+  attachShell = () => { this.watchWidth(); }
+  watchWidth() {
+    if (window.__eliteHeaderWatch) return;
+    const apply = () => {
+      const track = document.querySelector('[data-scene-track]');
+      const shell = track && track.isConnected ? track.parentElement : null;
+      if (!shell) return;
+      const w = shell.clientWidth || window.innerWidth; if (w < 2) return;
+      const band = w < 760 ? '2' : w < 1000 ? '1' : '0';
+      if (shell.dataset.mode !== band) shell.dataset.mode = band;
+    };
+    window.__eliteHeaderWatch = setInterval(apply, 120);
+    const loop = () => { apply(); requestAnimationFrame(loop); }; requestAnimationFrame(loop);
+    window.addEventListener('resize', apply, { passive: true });
+    // ResizeObserver is the primary trigger; it fires on the real layout change even when timers are throttled
+    if (window.ResizeObserver) {
+      const ro = new ResizeObserver(apply);
+      const arm = () => { const t = document.querySelector('[data-scene-track]'); if (t && t.parentElement && window.__eliteObserved !== t.parentElement) { if (window.__eliteObserved) ro.unobserve(window.__eliteObserved); window.__eliteObserved = t.parentElement; ro.observe(t.parentElement); } };
+      arm(); setInterval(arm, 500);
+    }
+    apply();
+  }
+  componentDidUpdate() { this.syncLang(); this.watchWidth(); }
+  syncLang() { try { document.documentElement.lang = this.lang(); } catch (e) {} }
+  componentWillUnmount() {}
+
+  lang() { return this.state.lang ?? this.props.defaultLang ?? 'fr'; }
+  t() { const l = this.lang(); return Object.assign({}, D[l] || D.fr, X[l] || X.fr, S[l] || S.en); }
+
+  nav(page) {
+    this.setState({ page });
+    if (this.scroller) this.scroller.scrollTop = 0;
+  }
+
+  answer(q) {
+    const t = this.t();
+    const s = (q || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const hit = k => KW[k].some(w => s.indexOf(w.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')) >= 0);
+    if (hit('reserve')) return t.aReserve;
+    if (hit('hours')) return t.aHours;
+    if (hit('veg')) return t.aVeg;
+    if (hit('delivery')) return t.aDelivery;
+    if (hit('price')) return t.aPrice;
+    if (hit('addr')) return t.aAddr;
+    if (hit('menu')) return t.aMenu;
+    return t.aFallback;
+  }
+
+  push(text) {
+    const reply = this.answer(text);
+    this.setState(st => ({ draft: '', msgs: (st.msgs || []).concat([{ me: true, text }, { me: false, text: reply }]) }));
+  }
+
+  renderVals() {
+    const narrow = (document.querySelector('[data-scene-track]') || {}).parentElement?.dataset?.mode === '2';
+    const P = this.props, lang = this.lang(), t = this.t();
+    const phone = P.phone ?? '09 52 87 54 93';
+    const page = this.state.page;
+    const navBase = { background: 'none', border: 'none', padding: '6px 0', cursor: 'pointer', whiteSpace: 'nowrap',
+      fontSize: '10.5px', fontWeight: 500, letterSpacing: '.2em', textTransform: 'uppercase', color: '#b5a894' };
+    const navOn = Object.assign({}, navBase, { color: '#f1eade', borderBottom: '1px solid #c2a15c' });
+    const pages = ['home', 'menu', 'place', 'colmar', 'contact'];
+    const labels = t.nav.slice(0, 3).concat([t.colmarNav, t.nav[3]]);
+    const menuBase = { display: 'block', width: '100%', background: 'none', border: 'none', borderBottom: '1px solid rgba(232,220,192,.1)', color: '#cabfab', font: '400 14px "Bricolage Grotesque", sans-serif', letterSpacing: '.04em', textAlign: 'left', padding: '12px 16px', cursor: 'pointer' };
+    const menuOn = Object.assign({}, menuBase, { color: '#f1eade', background: 'rgba(194,161,92,.16)' });
+    const navItems = labels.map((label, i) => ({ label, style: page === pages[i] ? navOn : navBase, menuStyle: page === pages[i] ? menuOn : menuBase, go: () => { this.nav(pages[i]); this.setState({ navOpen: false }); } }));
+    const pageLabel = labels[pages.indexOf(page)] || labels[0];
+
+    const notes = [t.noteEmpty, t.noteAssiettes, t.noteEmpty, t.noteBurgers, t.noteMenus, t.noteEmpty, t.noteEmpty, t.noteEmpty, t.noteEmpty, t.noteEmpty, t.noteEmpty, t.noteDesserts];
+    const keys = ['entrees', 'assiettes', 'sandwichs', 'burgers', 'menus', 'portions', 'pizzaT', 'pizzaC', 'tartes', 'pide', 'boissons', 'desserts'];
+    const menuGroups = keys.map((k, i) => ({
+      title: t.cat[i], note: notes[i] || '',
+      items: MENU[k].map(r => ({ n: r[0], p: r[1] ? r[1] + (r[1].indexOf('€') < 0 ? ' €' : '') : '', d: r[2] || '' }))
+    }));
+
+    const bubbleMe = { alignSelf: 'flex-end', maxWidth: '85%', background: '#c2a15c', color: '#100e0b', padding: '9px 12px', fontSize: '13.5px', lineHeight: 1.45 };
+    const bubbleBot = { alignSelf: 'flex-start', maxWidth: '90%', background: 'rgba(241,234,222,.07)', border: '1px solid rgba(194,161,92,.22)', color: '#e8dcc0', padding: '9px 12px', fontSize: '13.5px', lineHeight: 1.5 };
+    const msgs = (this.state.msgs || [{ me: false, text: t.cGreet }]).map(m => ({ text: m.text, style: m.me ? bubbleMe : bubbleBot }));
+
+    return {
+      t, lang, phone, legal: 'RESTAURANT ELITE · SARL · SIREN 933 784 647 · SIRET 933 784 647 00010 · NAF 5610A · 119 route de Colmar, 68040 Ingersheim · ' + t.tel + ' ' + phone,
+      telHref: 'tel:' + phone.replace(/\s/g, '').replace(/^0/, '+33'),
+      waHref: 'https://wa.me/' + phone.replace(/\s/g, '').replace(/^0/, '33') + '?text=' + encodeURIComponent(t.waMsg || 'Bonjour, je souhaite réserver une table.'),
+      hoursDemo: P.hoursAreDemo ?? false,
+      hasStoryNote: !!t.storyNote,
+      sceneCount: P.sceneDensity ?? 26,
+      shellRef: this.attachShell,
+      navOpen: this.state.navOpen && narrow, pageLabel,
+      toggleNav: () => this.setState(st => ({ navOpen: !st.navOpen, langOpen: false })),
+      metaPad: narrow ? 'clamp(12px,2.2vh,28px) 0 54px 0' : 'clamp(14px,2.6vh,34px) 150px 0 0',
+      snapMode: page === 'home' ? 'y mandatory' : 'y proximity',
+      scrim: page !== 'home' ? 'rgba(16,14,11,.82)'
+        : narrow ? 'linear-gradient(180deg,rgba(16,14,11,.56),rgba(16,14,11,.74))'
+        : 'linear-gradient(180deg,rgba(16,14,11,.06),rgba(16,14,11,.26))',
+      langCode: (L.find(l => l[0] === lang) || L[0])[1],
+      langOpen: this.state.langOpen,
+      toggleLang: () => this.setState(st => ({ langOpen: !st.langOpen })),
+      langs: L.map(l => ({
+        id: l[0], code: l[1], name: l[2],
+        style: { display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '12px',
+          background: l[0] === lang ? 'rgba(194,161,92,.16)' : 'none', border: 'none',
+          borderBottom: '1px solid rgba(232,220,192,.1)', color: l[0] === lang ? '#f1eade' : '#cabfab',
+          font: '400 13.5px "Bricolage Grotesque", sans-serif', textAlign: 'left', padding: '11px 14px', cursor: 'pointer' },
+        go: () => this.setState({ lang: l[0], msgs: null, langOpen: false })
+      })),
+      navItems, isHome: page === 'home', isMenu: page === 'menu', isPlace: page === 'place', isContact: page === 'contact',
+      isColmar: page === 'colmar',
+      dishes: DISH_NAMES.map((n, i) => ({ n, x: (DISH_TEXT[lang] || DISH_TEXT.en)[i] })), zones: ZONES,
+      faq: (t.faq || []).map(f => ({ q: f[0], a: f[1] })),
+      how: (t.how || []).map(s => ({ n: s[0], t: s[1], x: s[2] })),
+      lex: (t.lex || []).map(l => ({ k: l[0], v: l[1] })),
+      pract: (t.pract || []).map(p => ({ k: p[0], v: p[1] })),
+      marks: (t.marks || []).map(m => ({ k: m[0], v: m[1] })),
+      leadCap: (t.storyLead || 'É').slice(0, 1),
+      leadRest: (t.storyLead || '').slice(1),
+      goHome: () => this.nav('home'), goMenu: () => this.nav('menu'),
+      trio: t.trio.map(c => ({ n: c[0], t: c[1], x: c[2] })),
+      placeCards: t.place.map(c => ({ n: c[0], t: c[1], x: c[2], rows: c[3].map(r => ({ k: r[0], v: r[1] })) })),
+      menuGroups, amenities: t.am,
+
+      quotes: [{ q: '« Un endroit vraiment magnifique avec des plats délicieux et un service impeccable! »', a: 'nursen deveci' },
+        { q: '« les repas sont très bons et copieux »', a: 'Berfin U.' }],
+      chatOpen: this.state.chatOpen, chatBtn: t.cBtn, msgs, draft: this.state.draft,
+      chips: t.chips.map(label => ({ label, go: () => this.push(label) })),
+      toggleChat: () => this.setState(st => ({ chatOpen: !st.chatOpen })),
+      onDraft: e => this.setState({ draft: e.target.value }),
+      onKey: e => { if (e.key === 'Enter' && this.state.draft.trim()) this.push(this.state.draft.trim()); },
+      send: () => { if (this.state.draft.trim()) this.push(this.state.draft.trim()); }
+    };
+  }
+}
+</script>
+</body>
+</html>
